@@ -81,7 +81,7 @@ def build(roz, fet, outdir, dest, soft=1):
     tbl = '\n'.join(f'<tr><th>{e(a)}</th><td class="n dim">{b}</td><td class="n">{c}</td>'
                     f'<td class="wh">{e(d)}</td></tr>' for a, b, c, d in rows)
     tiles = [(f"{tot}", "sati smješteno", f"od {tot} traženih"),
-             ("0", "rupa u rasporedima", "kroz svih 36 rasporeda"),
+             ("0", "rupa i pauza", "kod razreda i kod nastavnika"),
              (str(soft), "prekršeno meko ograničenje", "dvosat isti dan, spojen"),
              ("&lt;1 s", "trajanje izračuna", "FET 7.10.3")]
     cap_r = g['n_def']['ucionice']
@@ -172,7 +172,8 @@ desni je ono što stvarno ulazi u raspored.</p>
 
 <h2>Tjedno opterećenje po razredu</h2>
 <p>%%NCLS%% razreda. Mreža ima 35 termina (5 dana × 7 sati), pa najopterećeniji razred
-troši 33 od 35 — dva slobodna termina u tjednu.</p>
+troši 33 od 35. Svaki razred počinje prvim satom i nema rupa, pa mu je dan neprekinut blok
+od prvog sata nadalje.</p>
 %%CLS%%
 
 <h2>Tjedno opterećenje po nastavniku</h2>
@@ -186,9 +187,11 @@ u vršnom terminu ostaje vrlo malo praznih učionica.</p>
 
 <h2>Što model sadrži, a što ne</h2>
 <div class="wrap"><table><tbody>
-<tr><th>Sadrži</th><td>zabranu sudara nastavnika, razreda i učionica; razmak po danima za
-višesatne predmete; istovremenost podijeljenih grupa; najviše nula rupa dnevno po razredu;
-dodjelu učionica bez sudara</td></tr>
+<tr><th>Sadrži</th><td>zabranu sudara nastavnika, razreda i učionica; <b>svaki razred počinje
+prvim satom</b>; <b>nijedan razred nema rupu u danu</b>; <b>nijedan nastavnik nema pauzu u danu</b>;
+razmak po danima za višesatne predmete; istovremenost podijeljenih grupa; dodjelu učionica bez
+sudara. Sve navedeno je tvrdo ograničenje i provjereno je na gotovom rasporedu, neovisno o
+FET-ovoj poruci o uspjehu.</td></tr>
 <tr><th>Ne sadrži</th><td><b>dostupnost nastavnika</b> — nije dekodirana iz izvora, pa netko može
 dobiti sat u terminu kad ne može raditi; <b>zahtjeve predmeta na učionicu</b> — praktikumi i
 radionice nisu razlikovani od običnih učionica; smjene; ograničenja na najviše sati dnevno</td></tr>

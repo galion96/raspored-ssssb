@@ -61,7 +61,7 @@ Za nekoga tko i sam slaže rasporede.</p>
 
 <h2>Rezultat izračuna</h2>
 <p>Jedan prolaz FET-a, bez ručnih zahvata.</p>
-<div class="tiles"><div class="tile"><b>890</b><span>sati smješteno</span><em>od 890 traženih</em></div><div class="tile"><b>0</b><span>rupa u rasporedima</span><em>kroz svih 36 rasporeda</em></div><div class="tile"><b>1</b><span>prekršeno meko ograničenje</span><em>dvosat isti dan, spojen</em></div><div class="tile"><b>&lt;1 s</b><span>trajanje izračuna</span><em>FET 7.10.3</em></div></div>
+<div class="tiles"><div class="tile"><b>890</b><span>sati smješteno</span><em>od 890 traženih</em></div><div class="tile"><b>0</b><span>rupa i pauza</span><em>kod razreda i kod nastavnika</em></div><div class="tile"><b>6</b><span>prekršeno meko ograničenje</span><em>dvosat isti dan, spojen</em></div><div class="tile"><b>&lt;1 s</b><span>trajanje izračuna</span><em>FET 7.10.3</em></div></div>
 
 <h2>Brojke koje stvarno stoje</h2>
 <p>aSc datoteka nosi i zapise koji se ne predaju. Lijevi stupac je ono što u njoj piše,
@@ -74,7 +74,8 @@ desni je ono što stvarno ulazi u raspored.</p>
 
 <h2>Tjedno opterećenje po razredu</h2>
 <p>30 razreda. Mreža ima 35 termina (5 dana × 7 sati), pa najopterećeniji razred
-troši 33 od 35 — dva slobodna termina u tjednu.</p>
+troši 33 od 35. Svaki razred počinje prvim satom i nema rupa, pa mu je dan neprekinut blok
+od prvog sata nadalje.</p>
 <div class="bars">
 <div class="bar" data-tip="IIb — 33 sati tjedno"><span class="bl">IIb</span><span class="bt"><i style="width:100.0%"></i></span><span class="bv">33</span></div>
 <div class="bar" data-tip="IIIc — 33 sati tjedno"><span class="bl">IIIc</span><span class="bt"><i style="width:100.0%"></i></span><span class="bv">33</span></div>
@@ -181,58 +182,60 @@ troši 33 od 35 — dva slobodna termina u tjednu.</p>
 u vršnom terminu ostaje vrlo malo praznih učionica.</p>
 <div class="wrap"><table class="heat"><thead><tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th></tr></thead><tbody>
 <tr><th class="dy">Pon</th>
-<td class="hc s0" data-tip="Pon 1. sat — 18 učionica od 31">18</td>
-<td class="hc s2" data-tip="Pon 2. sat — 26 učionica od 31">26</td>
-<td class="hc s2" data-tip="Pon 3. sat — 27 učionica od 31">27</td>
-<td class="hc s3" data-tip="Pon 4. sat — 29 učionica od 31">29</td>
-<td class="hc s2" data-tip="Pon 5. sat — 27 učionica od 31">27</td>
-<td class="hc s2" data-tip="Pon 6. sat — 26 učionica od 31">26</td>
-<td class="hc s1" data-tip="Pon 7. sat — 22 učionica od 31">22</td>
+<td class="hc s3" data-tip="Pon 1. sat — 30 učionica od 31">30</td>
+<td class="hc s3" data-tip="Pon 2. sat — 31 učionica od 31">31</td>
+<td class="hc s3" data-tip="Pon 3. sat — 31 učionica od 31">31</td>
+<td class="hc s3" data-tip="Pon 4. sat — 31 učionica od 31">31</td>
+<td class="hc s3" data-tip="Pon 5. sat — 30 učionica od 31">30</td>
+<td class="hc s2" data-tip="Pon 6. sat — 24 učionica od 31">24</td>
+<td class="hc s0" data-tip="Pon 7. sat — 14 učionica od 31">14</td>
 </tr>
 <tr><th class="dy">Uto</th>
-<td class="hc s0" data-tip="Uto 1. sat — 18 učionica od 31">18</td>
-<td class="hc s2" data-tip="Uto 2. sat — 25 učionica od 31">25</td>
-<td class="hc s2" data-tip="Uto 3. sat — 25 učionica od 31">25</td>
-<td class="hc s3" data-tip="Uto 4. sat — 28 učionica od 31">28</td>
-<td class="hc s3" data-tip="Uto 5. sat — 29 učionica od 31">29</td>
-<td class="hc s1" data-tip="Uto 6. sat — 23 učionica od 31">23</td>
-<td class="hc s0" data-tip="Uto 7. sat — 18 učionica od 31">18</td>
+<td class="hc s3" data-tip="Uto 1. sat — 30 učionica od 31">30</td>
+<td class="hc s3" data-tip="Uto 2. sat — 31 učionica od 31">31</td>
+<td class="hc s3" data-tip="Uto 3. sat — 31 učionica od 31">31</td>
+<td class="hc s3" data-tip="Uto 4. sat — 27 učionica od 31">27</td>
+<td class="hc s2" data-tip="Uto 5. sat — 21 učionica od 31">21</td>
+<td class="hc s1" data-tip="Uto 6. sat — 20 učionica od 31">20</td>
+<td class="hc s0" data-tip="Uto 7. sat — 10 učionica od 31">10</td>
 </tr>
 <tr><th class="dy">Sri</th>
-<td class="hc s1" data-tip="Sri 1. sat — 23 učionica od 31">23</td>
+<td class="hc s3" data-tip="Sri 1. sat — 30 učionica od 31">30</td>
 <td class="hc s3" data-tip="Sri 2. sat — 29 učionica od 31">29</td>
-<td class="hc s3" data-tip="Sri 3. sat — 31 učionica od 31">31</td>
-<td class="hc s3" data-tip="Sri 4. sat — 29 učionica od 31">29</td>
-<td class="hc s3" data-tip="Sri 5. sat — 31 učionica od 31">31</td>
-<td class="hc s3" data-tip="Sri 6. sat — 29 učionica od 31">29</td>
-<td class="hc s1" data-tip="Sri 7. sat — 23 učionica od 31">23</td>
+<td class="hc s3" data-tip="Sri 3. sat — 29 učionica od 31">29</td>
+<td class="hc s3" data-tip="Sri 4. sat — 28 učionica od 31">28</td>
+<td class="hc s3" data-tip="Sri 5. sat — 27 učionica od 31">27</td>
+<td class="hc s2" data-tip="Sri 6. sat — 24 učionica od 31">24</td>
+<td class="hc s1" data-tip="Sri 7. sat — 17 učionica od 31">17</td>
 </tr>
 <tr><th class="dy">Čet</th>
-<td class="hc s0" data-tip="Čet 1. sat — 19 učionica od 31">19</td>
-<td class="hc s3" data-tip="Čet 2. sat — 28 učionica od 31">28</td>
-<td class="hc s3" data-tip="Čet 3. sat — 29 učionica od 31">29</td>
-<td class="hc s3" data-tip="Čet 4. sat — 29 učionica od 31">29</td>
-<td class="hc s2" data-tip="Čet 5. sat — 26 učionica od 31">26</td>
-<td class="hc s2" data-tip="Čet 6. sat — 26 učionica od 31">26</td>
-<td class="hc s0" data-tip="Čet 7. sat — 18 učionica od 31">18</td>
+<td class="hc s3" data-tip="Čet 1. sat — 30 učionica od 31">30</td>
+<td class="hc s3" data-tip="Čet 2. sat — 30 učionica od 31">30</td>
+<td class="hc s3" data-tip="Čet 3. sat — 31 učionica od 31">31</td>
+<td class="hc s3" data-tip="Čet 4. sat — 28 učionica od 31">28</td>
+<td class="hc s2" data-tip="Čet 5. sat — 25 učionica od 31">25</td>
+<td class="hc s2" data-tip="Čet 6. sat — 23 učionica od 31">23</td>
+<td class="hc s0" data-tip="Čet 7. sat — 9 učionica od 31">9</td>
 </tr>
 <tr><th class="dy">Pet</th>
-<td class="hc s0" data-tip="Pet 1. sat — 20 učionica od 31">20</td>
-<td class="hc s2" data-tip="Pet 2. sat — 27 učionica od 31">27</td>
-<td class="hc s3" data-tip="Pet 3. sat — 29 učionica od 31">29</td>
-<td class="hc s3" data-tip="Pet 4. sat — 28 učionica od 31">28</td>
-<td class="hc s3" data-tip="Pet 5. sat — 29 učionica od 31">29</td>
-<td class="hc s2" data-tip="Pet 6. sat — 27 učionica od 31">27</td>
-<td class="hc s0" data-tip="Pet 7. sat — 19 učionica od 31">19</td>
+<td class="hc s3" data-tip="Pet 1. sat — 29 učionica od 31">29</td>
+<td class="hc s3" data-tip="Pet 2. sat — 30 učionica od 31">30</td>
+<td class="hc s3" data-tip="Pet 3. sat — 27 učionica od 31">27</td>
+<td class="hc s3" data-tip="Pet 4. sat — 27 učionica od 31">27</td>
+<td class="hc s3" data-tip="Pet 5. sat — 26 učionica od 31">26</td>
+<td class="hc s1" data-tip="Pet 6. sat — 17 učionica od 31">17</td>
+<td class="hc s0" data-tip="Pet 7. sat — 13 učionica od 31">13</td>
 </tr>
 </tbody></table></div>
-<div class="scale"><span>manje</span><i class="s0"></i><i class="s1"></i><i class="s2"></i><i class="s3"></i><span>više</span><em>18–31 učionica istovremeno, strop je 31</em></div>
+<div class="scale"><span>manje</span><i class="s0"></i><i class="s1"></i><i class="s2"></i><i class="s3"></i><span>više</span><em>9–31 učionica istovremeno, strop je 31</em></div>
 
 <h2>Što model sadrži, a što ne</h2>
 <div class="wrap"><table><tbody>
-<tr><th>Sadrži</th><td>zabranu sudara nastavnika, razreda i učionica; razmak po danima za
-višesatne predmete; istovremenost podijeljenih grupa; najviše nula rupa dnevno po razredu;
-dodjelu učionica bez sudara</td></tr>
+<tr><th>Sadrži</th><td>zabranu sudara nastavnika, razreda i učionica; <b>svaki razred počinje
+prvim satom</b>; <b>nijedan razred nema rupu u danu</b>; <b>nijedan nastavnik nema pauzu u danu</b>;
+razmak po danima za višesatne predmete; istovremenost podijeljenih grupa; dodjelu učionica bez
+sudara. Sve navedeno je tvrdo ograničenje i provjereno je na gotovom rasporedu, neovisno o
+FET-ovoj poruci o uspjehu.</td></tr>
 <tr><th>Ne sadrži</th><td><b>dostupnost nastavnika</b> — nije dekodirana iz izvora, pa netko može
 dobiti sat u terminu kad ne može raditi; <b>zahtjeve predmeta na učionicu</b> — praktikumi i
 radionice nisu razlikovani od običnih učionica; smjene; ograničenja na najviše sati dnevno</td></tr>

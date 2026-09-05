@@ -173,7 +173,9 @@ footer b{color:var(--fg);font-weight:600}
 var tiles=[].slice.call(document.querySelectorAll('.tiles')),
     sheets=[].slice.call(document.querySelectorAll('.sheet')),
     tabs=[].slice.call(document.querySelectorAll('.tab')),
-    find=document.getElementById('find');
+    find=document.getElementById('find'),
+    bar=document.querySelector('.bar'),
+    lastY=0, wasSheet=false;
 function route(){
   var h=decodeURIComponent(location.hash.replace(/^#/,'')) || 'razred';
   var kind=h.split('/')[0], isSheet=h.indexOf('/')>0;
@@ -184,7 +186,17 @@ function route(){
   tabs.forEach(function(t){t.setAttribute('aria-current',String(t.dataset.kind===kind))});
   find.style.visibility=isSheet?'hidden':'visible';
   if(!isSheet){find.value='';filter()}
-  window.scrollTo(0,0);
+  if(isSheet){
+    if(!wasSheet) lastY=window.pageYOffset;      // zapamti gdje smo stali u mrezi plocica
+    var open=null; sheets.forEach(function(s){if(!s.hidden)open=s});
+    if(open){                                     // skoci na sam raspored, ispod ljepljive trake
+      var y=open.getBoundingClientRect().top+window.pageYOffset-bar.offsetHeight-14;
+      window.scrollTo(0,Math.max(0,y));
+    }
+  } else {
+    window.scrollTo(0, wasSheet?lastY:0);         // povratak vraca na isto mjesto
+  }
+  wasSheet=isSheet;
 }
 function filter(){
   var q=find.value.trim().toLowerCase();

@@ -15595,6 +15595,657 @@
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintStudentsSetMaxGapsPerDay>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>Ia</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>Ib</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>Ic</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>Id</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>Ie</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>If</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>Ig</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>Ih</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>Ii</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>Ij</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IIa</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IIb</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IIc</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IId</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IIe</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IIf</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IIg</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IIh</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IIi</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IIIa</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IIIb</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IIIc</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IIId</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IIIe</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IIIf</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IIIg</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IVa</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IVb</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IVc</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+	<Students>IVd</Students>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Diana Zovko</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Marija Šaravanja</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Kristina Tadić</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Ognjen Karačić</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Diana Brzica Sesar</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Sanja Vasilj</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Ivana Ivanković</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Ivana Corluka</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Andrijana Musa</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Vanja Tica</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Luka Rogalo</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Iva Soldo</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Marko Marušić</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Darko Bošnjak</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Mateo Zadro</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Mario Rozic</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>fra Ivan Crnogorac</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Ana Colak</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Marija Soldo</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Ana Marija Soldo</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Anita Marić</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Marija Ivanković</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>David Galic</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Sanja Slišković</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Ružica Džajkić</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Snježana Slišković</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Ivana Knezović</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Kristina Marušić</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Matea Knezović</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Danica Glavina</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Mila Bandić</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Stjepan Skoko</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Marko Kraljević</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Marko Kvesić</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Ivan Spajic</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Zdenko Zovko</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Zdravka Galić</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Jozo Cigić</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Vinko Zovko</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Martina Cavar</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Jelena Slišković</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Andrea Knezović</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Zvonimir Kožul</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Antonio Lončar</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Lucija Rozić</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Antonio Camber</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Ivona Boban</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Matea Soldo</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Marijofil Cerkez</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Irena Lončar</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Mila Culjak</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Danijela Lasić</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Iva Cavar</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Zdravka Đolo</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Anita Kvesić</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Ružica Šaravanja</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Tamara Zovko</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>Dragana Lovrić</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>PRAK.NAST.VAN.SK 1j konobar</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>PRAK.NAST.VAN.SK 2f komerc</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>PRAK.NAST.VAN.SK 2g CNC</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>PRAK.NAST.VAN.SK 2h CNC</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
+<ConstraintTeacherMaxGapsPerDay>
+	<Weight_Percentage>100.0</Weight_Percentage>
+	<Teacher>PRAK.NAST.VAN.SK 4d komerc</Teacher>
+	<Max_Gaps>0</Max_Gaps>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintTeacherMaxGapsPerDay>
 <ConstraintActivitiesSameStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Number_of_Activities>2</Number_of_Activities>
