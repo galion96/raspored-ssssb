@@ -27,10 +27,10 @@ def collect(fet_path, outdir):
         if not (d and h): continue
         r = (a.findtext('Room') or '').strip(); x = acts[i]
         grp = '' if x['g'] in years else x['g'].rsplit('-', 1)[1]
-        blk = f' · blok {x["d"]}h' if x['d'] > 1 else ''
-        ent = {'razred':    (x['s'], x['t'], r, (f'gr.{grp}' if grp else '') + blk),
-               'nastavnik': (x['s'], yof(x['g']) + (f' gr.{grp}' if grp else ''), r, blk.lstrip(' ·')),
-               'ucionica':  (x['s'], x['t'], yof(x['g']), blk.lstrip(' ·'))}
+        du = x['d']
+        ent = {'razred':    (x['s'], x['t'], r, f'gr.{grp}' if grp else '', du),
+               'nastavnik': (x['s'], yof(x['g']) + (f' gr.{grp}' if grp else ''), r, '', du),
+               'ucionica':  (x['s'], x['t'], yof(x['g']), '', du)}
         for k in range(x['d']):                 # blok zauzima sve svoje sate, ne samo prvi
             j = hpos[h] + k
             if j >= len(hours): break
@@ -65,10 +65,12 @@ def grid(days, hours, cell):
             if not c:
                 o.append(f'<td class="free"{span}></td>')
             else:
-                o.append(f'<td{span}>' + ''.join(
-                    f'<div class="ev"><b>{e(a)}</b><span>{e(b)}'
+                cls = ' class="blok"' if n > 1 else ''
+                o.append(f'<td{span}{cls}>' + ''.join(
+                    f'<div class="ev"><b>{e(a)}'
+                    f'{f"<i>{du}h blok</i>" if du > 1 else ""}</b><span>{e(b)}'
                     f'{" · " + e(r) if r else ""}{" · " + e(g) if g else ""}</span></div>'
-                    for _, (a, b, r, g) in c) + '</td>')
+                    for _, (a, b, r, g, du) in c) + '</td>')
             j += n
         o.append('</tr>')
     return '\n'.join(o + ['</tbody></table></div>'])
@@ -171,6 +173,13 @@ td.free{background:repeating-linear-gradient(45deg,transparent,transparent 6px,
 .ev+.ev{margin-top:5px;padding-top:5px;border-top:1px dashed var(--line)}
 .ev b{display:block;font-size:12.5px;font-weight:620;line-height:1.25}
 .ev span{display:block;font-size:11px;color:var(--mut);margin-top:1px;line-height:1.3}
+td.blok{background:color-mix(in srgb,var(--acc) 8%,var(--panel));
+ box-shadow:inset 3px 0 0 0 var(--acc);text-align:center}
+td.blok .ev b{font-size:13.5px}
+.ev i{display:inline-block;font-style:normal;font-size:9.5px;font-weight:600;
+ letter-spacing:.04em;text-transform:uppercase;color:var(--acc);
+ border:1px solid color-mix(in srgb,var(--acc) 45%,transparent);
+ border-radius:999px;padding:0 6px;margin-left:7px;vertical-align:1px;white-space:nowrap}
 footer{max-width:1180px;margin:0 auto;padding:0 24px 50px;color:var(--mut);font-size:12px;line-height:1.6}
 footer b{color:var(--fg);font-weight:600}
 @media print{
