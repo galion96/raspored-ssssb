@@ -13,7 +13,8 @@ def collect(fet_path, outdir):
     days  = [d.findtext('Name') for d in src.findall('./Days_List/Day')]
     hours = [h.findtext('Name') for h in src.findall('./Hours_List/Hour')]
     acts  = {int(a.findtext('Id')): dict(t=a.findtext('Teacher'), s=a.findtext('Subject'),
-                                         g=a.findtext('Students'))
+                                         g=a.findtext('Students'),
+                                         d=int(a.findtext('Duration')))
              for a in src.findall('./Activities_List/Activity')}
     years = {y.findtext('Name'): (y.findtext('Comments') or '') for y in src.findall('./Students_List/Year')}
     yof = lambda g: g if g in years else g.rsplit('-', 1)[0]
@@ -25,17 +26,21 @@ def collect(fet_path, outdir):
         if not (d and h): continue
         r = (a.findtext('Room') or '').strip(); x = acts[i]
         grp = '' if x['g'] in years else x['g'].rsplit('-', 1)[1]
-        cells[('razred', yof(x['g']))][(d, h)].append((x['s'], x['t'], r, f'gr.{grp}' if grp else ''))
+        blk = f' · blok {x["d"]}h' if x['d'] > 1 else ''
+        cells[('razred', yof(x['g']))][(d, h)].append(
+            (x['s'], x['t'], r, (f'gr.{grp}' if grp else '') + blk))
         cells[('nastavnik', x['t'])][(d, h)].append(
-            (x['s'], yof(x['g']) + (f' gr.{grp}' if grp else ''), r, ''))
+            (x['s'], yof(x['g']) + (f' gr.{grp}' if grp else ''), r, blk.lstrip(' ·')))
         if r: cells[('ucionica', r)][(d, h)].append((x['s'], x['t'], yof(x['g']), ''))
-        load[('razred', yof(x['g']))] += 1; load[('nastavnik', x['t'])] += 1
-        if r: load[('ucionica', r)] += 1
+        if grp != '2': load[('razred', yof(x['g']))] += x['d']   # paralelne grupe = isti termin
+        load[('nastavnik', x['t'])] += x['d']
+        if r: load[('ucionica', r)] += x['d']
     order = lambda s: (len(s), s)
     kinds = [('razred', 'Razredi', sorted(years, key=order), years),
              ('nastavnik', 'Nastavnici', sorted({a['t'] for a in acts.values()}), {}),
              ('ucionica', 'Učionice', sorted({k[1] for k in cells if k[0] == 'ucionica'}, key=order), {})]
-    return days, hours, cells, load, kinds, len(acts), len({a['s'] for a in acts.values()})
+    tot = sum(a['d'] for a in acts.values() if not a['g'].endswith('-2'))
+    return days, hours, cells, load, kinds, tot, len({a['s'] for a in acts.values()})
 
 def grid(days, hours, cell):
     o = ['<div class="wrap"><table><thead><tr><th class="corner"></th>' +

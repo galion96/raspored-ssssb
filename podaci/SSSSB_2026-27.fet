@@ -2377,8 +2377,8 @@
 	<Teacher>Marijofil Cerkez</Teacher>
 	<Subject>radioničke vježbe</Subject>
 	<Students>IIb-2</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>41</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -2586,8 +2586,8 @@
 	<Teacher>Marijofil Cerkez</Teacher>
 	<Subject>radioničke vježbe</Subject>
 	<Students>IIIa-2</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>60</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -2619,8 +2619,8 @@
 	<Teacher>Matea Soldo</Teacher>
 	<Subject>radioničke vježbe</Subject>
 	<Students>IVa-2</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>63</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -3191,8 +3191,8 @@
 	<Teacher>PRAK.NAST.VAN.SK 4d komerc</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IVd</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>7</Duration>
+	<Total_Duration>7</Total_Duration>
 	<Id>115</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -3224,8 +3224,8 @@
 	<Teacher>Mila Culjak</Teacher>
 	<Subject>knjigovodstvo s bilanciranjem</Subject>
 	<Students>IVc</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>118</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -3455,8 +3455,8 @@
 	<Teacher>Vinko Zovko</Teacher>
 	<Subject>tehničko crtanje</Subject>
 	<Students>Ib</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>139</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -3598,8 +3598,8 @@
 	<Teacher>Vinko Zovko</Teacher>
 	<Subject>tehničko crtanje</Subject>
 	<Students>Ic</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>152</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -3609,8 +3609,8 @@
 	<Teacher>Martina Cavar</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>Ic</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>153</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -4126,8 +4126,8 @@
 	<Teacher>Anita Kvesić</Teacher>
 	<Subject>knjigovodstvo s bilanciranjem</Subject>
 	<Students>Ie</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>200</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -4423,8 +4423,8 @@
 	<Teacher>Anita Kvesić</Teacher>
 	<Subject>knjigovodstvo s bilanciranjem</Subject>
 	<Students>If</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>227</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -5743,8 +5743,8 @@
 	<Teacher>Zvonimir Kožul</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>Ii</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>7</Duration>
+	<Total_Duration>14</Total_Duration>
 	<Id>347</Id>
 	<Activity_Group_Id>347</Activity_Group_Id>
 	<Active>true</Active>
@@ -5754,8 +5754,8 @@
 	<Teacher>Zvonimir Kožul</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>Ii</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>7</Duration>
+	<Total_Duration>14</Total_Duration>
 	<Id>348</Id>
 	<Activity_Group_Id>347</Activity_Group_Id>
 	<Active>true</Active>
@@ -5787,8 +5787,8 @@
 	<Teacher>Vinko Zovko</Teacher>
 	<Subject>tehničko crtanje</Subject>
 	<Students>Ii</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>351</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -5853,8 +5853,8 @@
 	<Teacher>PRAK.NAST.VAN.SK 1j konobar</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>Ij</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>7</Duration>
+	<Total_Duration>7</Total_Duration>
 	<Id>357</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -5864,8 +5864,8 @@
 	<Teacher>Zdenko Zovko</Teacher>
 	<Subject>ugostiteljsko posluživanje</Subject>
 	<Students>Ij</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>5</Duration>
+	<Total_Duration>5</Total_Duration>
 	<Id>358</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -5985,8 +5985,8 @@
 	<Teacher>Martina Cavar</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>Ib</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>369</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -5996,8 +5996,8 @@
 	<Teacher>Matea Soldo</Teacher>
 	<Subject>radioničke vježbe</Subject>
 	<Students>IIb-1</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>370</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -6007,8 +6007,8 @@
 	<Teacher>Vinko Zovko</Teacher>
 	<Subject>tehničko crtanje</Subject>
 	<Students>IIb</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>371</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -6260,8 +6260,8 @@
 	<Teacher>Snježana Slišković</Teacher>
 	<Subject>uvod u labaratorijski rad</Subject>
 	<Students>Id</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>394</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -6271,8 +6271,8 @@
 	<Teacher>Snježana Slišković</Teacher>
 	<Subject>analitička kemija</Subject>
 	<Students>IIc</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>395</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -6557,8 +6557,8 @@
 	<Teacher>Danijela Lasić</Teacher>
 	<Subject>knjigovodstvo s bilanciranjem</Subject>
 	<Students>IId</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>421</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -6590,8 +6590,8 @@
 	<Teacher>Danijela Lasić</Teacher>
 	<Subject>knjigovodstvo s bilanciranjem</Subject>
 	<Students>IIe</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>424</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -7272,8 +7272,8 @@
 	<Teacher>Danica Glavina</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IIi</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>6</Duration>
+	<Total_Duration>12</Total_Duration>
 	<Id>486</Id>
 	<Activity_Group_Id>486</Activity_Group_Id>
 	<Active>true</Active>
@@ -7283,8 +7283,8 @@
 	<Teacher>Danica Glavina</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IIi</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>6</Duration>
+	<Total_Duration>12</Total_Duration>
 	<Id>487</Id>
 	<Activity_Group_Id>486</Activity_Group_Id>
 	<Active>true</Active>
@@ -7503,8 +7503,8 @@
 	<Teacher>Irena Lončar</Teacher>
 	<Subject>PRAKSA OBILAZK</Subject>
 	<Students>IIfO</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>507</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -7514,8 +7514,8 @@
 	<Teacher>PRAK.NAST.VAN.SK 2f komerc</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IIf</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>7</Duration>
+	<Total_Duration>7</Total_Duration>
 	<Id>508</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -7635,8 +7635,8 @@
 	<Teacher>Marijofil Cerkez</Teacher>
 	<Subject>radioničke vježbe</Subject>
 	<Students>Ia</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>519</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -7778,8 +7778,8 @@
 	<Teacher>Vinko Zovko</Teacher>
 	<Subject>tehničko crtanje</Subject>
 	<Students>Ia</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>532</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -7899,8 +7899,8 @@
 	<Teacher>Ivona Boban</Teacher>
 	<Subject>radioničke vježbe</Subject>
 	<Students>IIa-1</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>4</Duration>
+	<Total_Duration>4</Total_Duration>
 	<Id>543</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -7910,8 +7910,8 @@
 	<Teacher>Lucija Rozić</Teacher>
 	<Subject>radioničke vježbe</Subject>
 	<Students>IIa-2</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>4</Duration>
+	<Total_Duration>4</Total_Duration>
 	<Id>544</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -8493,8 +8493,8 @@
 	<Teacher>PRAK.NAST.VAN.SK 2g CNC</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IIg</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>7</Duration>
+	<Total_Duration>14</Total_Duration>
 	<Id>597</Id>
 	<Activity_Group_Id>597</Activity_Group_Id>
 	<Active>true</Active>
@@ -8504,8 +8504,8 @@
 	<Teacher>PRAK.NAST.VAN.SK 2g CNC</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IIg</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>7</Duration>
+	<Total_Duration>14</Total_Duration>
 	<Id>598</Id>
 	<Activity_Group_Id>597</Activity_Group_Id>
 	<Active>true</Active>
@@ -8548,8 +8548,8 @@
 	<Teacher>PRAK.NAST.VAN.SK 2h CNC</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IIh</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>7</Duration>
+	<Total_Duration>14</Total_Duration>
 	<Id>602</Id>
 	<Activity_Group_Id>602</Activity_Group_Id>
 	<Active>true</Active>
@@ -8559,8 +8559,8 @@
 	<Teacher>PRAK.NAST.VAN.SK 2h CNC</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IIh</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>7</Duration>
+	<Total_Duration>14</Total_Duration>
 	<Id>603</Id>
 	<Activity_Group_Id>602</Activity_Group_Id>
 	<Active>true</Active>
@@ -8647,8 +8647,8 @@
 	<Teacher>Ivona Boban</Teacher>
 	<Subject>radioničke vježbe</Subject>
 	<Students>IIIa-1</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>611</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -9087,8 +9087,8 @@
 	<Teacher>Iva Cavar</Teacher>
 	<Subject>knjigovodstvo s bilanciranjem</Subject>
 	<Students>IIIc</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>651</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -9142,8 +9142,8 @@
 	<Teacher>Iva Cavar</Teacher>
 	<Subject>knjigovodstvo s bilanciranjem</Subject>
 	<Students>IIId</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>656</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -9967,8 +9967,8 @@
 	<Teacher>Mila Bandić</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IIIg</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>7</Duration>
+	<Total_Duration>14</Total_Duration>
 	<Id>731</Id>
 	<Activity_Group_Id>731</Activity_Group_Id>
 	<Active>true</Active>
@@ -9978,8 +9978,8 @@
 	<Teacher>Mila Bandić</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IIIg</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>7</Duration>
+	<Total_Duration>14</Total_Duration>
 	<Id>732</Id>
 	<Activity_Group_Id>731</Activity_Group_Id>
 	<Active>true</Active>
@@ -9989,8 +9989,8 @@
 	<Teacher>Mila Bandić</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IIIg</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>3</Duration>
+	<Total_Duration>3</Total_Duration>
 	<Id>733</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -10264,8 +10264,8 @@
 	<Teacher>Marijofil Cerkez</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IIIf</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>7</Duration>
+	<Total_Duration>14</Total_Duration>
 	<Id>758</Id>
 	<Activity_Group_Id>758</Activity_Group_Id>
 	<Active>true</Active>
@@ -10275,8 +10275,8 @@
 	<Teacher>Marijofil Cerkez</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IIIf</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>7</Duration>
+	<Total_Duration>14</Total_Duration>
 	<Id>759</Id>
 	<Activity_Group_Id>758</Activity_Group_Id>
 	<Active>true</Active>
@@ -10286,8 +10286,8 @@
 	<Teacher>Marijofil Cerkez</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IIIf</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>760</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -10407,8 +10407,8 @@
 	<Teacher>Zdenko Zovko</Teacher>
 	<Subject>PRAKSA OBILAZK</Subject>
 	<Students>IjO</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>3</Duration>
+	<Total_Duration>3</Total_Duration>
 	<Id>771</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -10418,8 +10418,8 @@
 	<Teacher>Jozo Cigić</Teacher>
 	<Subject>PRAKSA OBILAZK</Subject>
 	<Students>IIgO</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>4</Total_Duration>
 	<Id>772</Id>
 	<Activity_Group_Id>772</Activity_Group_Id>
 	<Active>true</Active>
@@ -10429,8 +10429,8 @@
 	<Teacher>Jozo Cigić</Teacher>
 	<Subject>PRAKSA OBILAZK</Subject>
 	<Students>IIgO</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>4</Total_Duration>
 	<Id>773</Id>
 	<Activity_Group_Id>772</Activity_Group_Id>
 	<Active>true</Active>
@@ -10440,8 +10440,8 @@
 	<Teacher>Jozo Cigić</Teacher>
 	<Subject>PRAKSA OBILAZK</Subject>
 	<Students>IIhO</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>4</Total_Duration>
 	<Id>774</Id>
 	<Activity_Group_Id>774</Activity_Group_Id>
 	<Active>true</Active>
@@ -10451,8 +10451,8 @@
 	<Teacher>Jozo Cigić</Teacher>
 	<Subject>PRAKSA OBILAZK</Subject>
 	<Students>IIhO</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>4</Total_Duration>
 	<Id>775</Id>
 	<Activity_Group_Id>774</Activity_Group_Id>
 	<Active>true</Active>
@@ -10462,8 +10462,8 @@
 	<Teacher>Irena Lončar</Teacher>
 	<Subject>PRAKSA OBILAZK</Subject>
 	<Students>IVdO</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>776</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -10517,8 +10517,8 @@
 	<Teacher>Antonio Camber</Teacher>
 	<Subject>radioničke vježbe</Subject>
 	<Students>IVa-1</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>781</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -10759,8 +10759,8 @@
 	<Teacher>Jelena Slišković</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IVb-2</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>3</Duration>
+	<Total_Duration>3</Total_Duration>
 	<Id>803</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -10770,8 +10770,8 @@
 	<Teacher>Vinko Zovko</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IVb-1</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>3</Duration>
+	<Total_Duration>3</Total_Duration>
 	<Id>804</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -10781,8 +10781,8 @@
 	<Teacher>Jelena Slišković</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IVb-1</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>4</Total_Duration>
 	<Id>805</Id>
 	<Activity_Group_Id>805</Activity_Group_Id>
 	<Active>true</Active>
@@ -10792,8 +10792,8 @@
 	<Teacher>Jelena Slišković</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IVb-1</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>4</Total_Duration>
 	<Id>806</Id>
 	<Activity_Group_Id>805</Activity_Group_Id>
 	<Active>true</Active>
@@ -10803,8 +10803,8 @@
 	<Teacher>Zvonimir Kožul</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IVb-2</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>4</Total_Duration>
 	<Id>807</Id>
 	<Activity_Group_Id>807</Activity_Group_Id>
 	<Active>true</Active>
@@ -10814,8 +10814,8 @@
 	<Teacher>Zvonimir Kožul</Teacher>
 	<Subject>praktična nastava</Subject>
 	<Students>IVb-2</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>4</Total_Duration>
 	<Id>808</Id>
 	<Activity_Group_Id>807</Activity_Group_Id>
 	<Active>true</Active>
@@ -11705,8 +11705,8 @@
 	<Teacher>Marija Šaravanja</Teacher>
 	<Subject>hrvatski jezik</Subject>
 	<Students>IIIg</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>889</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -11716,8 +11716,8 @@
 	<Teacher>Zvonimir Kožul</Teacher>
 	<Subject>CNC strojevi</Subject>
 	<Students>IIg</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
+	<Duration>2</Duration>
+	<Total_Duration>2</Total_Duration>
 	<Id>890</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
@@ -15839,7 +15839,7 @@
 </ConstraintStudentsSetMinHoursDaily>
 <ConstraintStudentsSetMinHoursDaily>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Minimum_Hours_Daily>6</Minimum_Hours_Daily>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
 	<Students>Ie</Students>
 	<Allow_Empty_Days>true</Allow_Empty_Days>
 	<Active>true</Active>
@@ -15847,7 +15847,7 @@
 </ConstraintStudentsSetMinHoursDaily>
 <ConstraintStudentsSetMinHoursDaily>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Minimum_Hours_Daily>6</Minimum_Hours_Daily>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
 	<Students>If</Students>
 	<Allow_Empty_Days>true</Allow_Empty_Days>
 	<Active>true</Active>
@@ -15895,7 +15895,7 @@
 </ConstraintStudentsSetMinHoursDaily>
 <ConstraintStudentsSetMinHoursDaily>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Minimum_Hours_Daily>6</Minimum_Hours_Daily>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
 	<Students>IIb</Students>
 	<Allow_Empty_Days>true</Allow_Empty_Days>
 	<Active>true</Active>
@@ -15959,7 +15959,7 @@
 </ConstraintStudentsSetMinHoursDaily>
 <ConstraintStudentsSetMinHoursDaily>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Minimum_Hours_Daily>6</Minimum_Hours_Daily>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
 	<Students>IIIa</Students>
 	<Allow_Empty_Days>true</Allow_Empty_Days>
 	<Active>true</Active>
@@ -15967,7 +15967,7 @@
 </ConstraintStudentsSetMinHoursDaily>
 <ConstraintStudentsSetMinHoursDaily>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Minimum_Hours_Daily>6</Minimum_Hours_Daily>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
 	<Students>IIIb</Students>
 	<Allow_Empty_Days>true</Allow_Empty_Days>
 	<Active>true</Active>
@@ -15975,7 +15975,7 @@
 </ConstraintStudentsSetMinHoursDaily>
 <ConstraintStudentsSetMinHoursDaily>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Minimum_Hours_Daily>6</Minimum_Hours_Daily>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
 	<Students>IIIc</Students>
 	<Allow_Empty_Days>true</Allow_Empty_Days>
 	<Active>true</Active>
@@ -15983,7 +15983,7 @@
 </ConstraintStudentsSetMinHoursDaily>
 <ConstraintStudentsSetMinHoursDaily>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Minimum_Hours_Daily>6</Minimum_Hours_Daily>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
 	<Students>IIId</Students>
 	<Allow_Empty_Days>true</Allow_Empty_Days>
 	<Active>true</Active>
@@ -16015,7 +16015,7 @@
 </ConstraintStudentsSetMinHoursDaily>
 <ConstraintStudentsSetMinHoursDaily>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Minimum_Hours_Daily>6</Minimum_Hours_Daily>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
 	<Students>IVa</Students>
 	<Allow_Empty_Days>true</Allow_Empty_Days>
 	<Active>true</Active>
@@ -16031,7 +16031,7 @@
 </ConstraintStudentsSetMinHoursDaily>
 <ConstraintStudentsSetMinHoursDaily>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Minimum_Hours_Daily>6</Minimum_Hours_Daily>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
 	<Students>IVc</Students>
 	<Allow_Empty_Days>true</Allow_Empty_Days>
 	<Active>true</Active>
@@ -16048,441 +16048,441 @@
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Diana Zovko</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Marija Šaravanja</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Kristina Tadić</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Ognjen Karačić</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Diana Brzica Sesar</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Sanja Vasilj</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Ivana Ivanković</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Ivana Corluka</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Andrijana Musa</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Vanja Tica</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Luka Rogalo</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Iva Soldo</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Marko Marušić</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Darko Bošnjak</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Mateo Zadro</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Mario Rozic</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>fra Ivan Crnogorac</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Ana Colak</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Marija Soldo</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Ana Marija Soldo</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Anita Marić</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Marija Ivanković</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>David Galic</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Sanja Slišković</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Ružica Džajkić</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Snježana Slišković</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Ivana Knezović</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Kristina Marušić</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Matea Knezović</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Danica Glavina</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Mila Bandić</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Stjepan Skoko</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Marko Kraljević</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Marko Kvesić</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Ivan Spajic</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Zdenko Zovko</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Zdravka Galić</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Jozo Cigić</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Vinko Zovko</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Martina Cavar</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Jelena Slišković</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Andrea Knezović</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Zvonimir Kožul</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Antonio Lončar</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Lucija Rozić</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Antonio Camber</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Ivona Boban</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Matea Soldo</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Marijofil Cerkez</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Irena Lončar</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Mila Culjak</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Danijela Lasić</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Iva Cavar</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Zdravka Đolo</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Anita Kvesić</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Ružica Šaravanja</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Tamara Zovko</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Dragana Lovrić</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>PRAK.NAST.VAN.SK 1j konobar</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>PRAK.NAST.VAN.SK 2f komerc</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>PRAK.NAST.VAN.SK 2g CNC</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>PRAK.NAST.VAN.SK 2h CNC</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>PRAK.NAST.VAN.SK 4d komerc</Teacher>
-	<Max_Gaps>0</Max_Gaps>
+	<Max_Gaps>1</Max_Gaps>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintTeacherMaxGapsPerDay>

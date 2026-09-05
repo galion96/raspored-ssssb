@@ -2,7 +2,7 @@
 
 Statična stranica s rasporedom sati. Bez vanjskih ovisnosti — radi i offline.
 
-**30 razreda · 58 nastavnika · 108 predmeta · 31 učionica · 890 sati tjedno**
+**30 razreda · 58 nastavnika · 108 predmeta · 31 učionica · 1003 sata tjedno**
 
 - [Raspored](index.html) — razredi, nastavnici, učionice
 - [Analiza](analiza.html) — kako je nastao, opterećenja, iskorištenost, granice modela

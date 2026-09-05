@@ -14,25 +14,37 @@ def gather(roz, fet, outdir):
     src = ET.parse(fet).getroot()
     days = [d.findtext('Name') for d in src.findall('./Days_List/Day')]
     hours = [h.findtext('Name').split(' ')[0] for h in src.findall('./Hours_List/Hour')]
-    acts = {int(a.findtext('Id')): (a.findtext('Teacher'), a.findtext('Students'))
+    acts = {int(a.findtext('Id')): (a.findtext('Teacher'), a.findtext('Students'),
+                                    int(a.findtext('Duration')))
             for a in src.findall('./Activities_List/Activity')}
     years = {y.findtext('Name') for y in src.findall('./Students_List/Year')}
     yof = lambda g: g if g in years else g.rsplit('-', 1)[0]
     tt = glob.glob(os.path.join(outdir, 'timetables/*/*_activities.xml'))[0]
+    hpos = {h: i for i, h in enumerate(hours)}
     room_slot = collections.Counter(); tch_slot = collections.defaultdict(set)
     for a in ET.parse(tt).getroot().findall('Activity'):
         d, h, r = a.findtext('Day'), a.findtext('Hour'), (a.findtext('Room') or '').strip()
-        if d and h and r: room_slot[(d, h.split(' ')[0])] += 1
-        if d and h: tch_slot[(d, h.split(' ')[0])].add(acts[int(a.findtext('Id'))][0])
+        if not (d and h): continue
+        t, s, du = acts[int(a.findtext('Id'))]
+        for k in range(du):                      # blok zauzima sve sate svog raspona
+            j = hpos[h.split(' ')[0]] + k
+            if j >= len(hours): break
+            if r: room_slot[(d, hours[j])] += 1
+            tch_slot[(d, hours[j])].add(t)
     daylen = collections.defaultdict(set)
     for a in ET.parse(tt).getroot().findall('Activity'):
         d, h = a.findtext('Day'), a.findtext('Hour')
-        if d and h: daylen[(yof(acts[int(a.findtext('Id'))][1]), d)].add(h)
+        if not (d and h): continue
+        t, s, du = acts[int(a.findtext('Id'))]
+        for k in range(du):
+            j = hpos[h.split(' ')[0]] + k
+            if j < len(hours): daylen[(yof(s), d)].add(hours[j])
     dl = collections.Counter(len(v) for k, v in daylen.items() if not k[0].endswith('O'))
     isO = lambda ci: cnames[ci][0].endswith('O')
     cls = collections.Counter(); tch = collections.Counter()
     for r in les:
-        cls[cnames[r['cls']][0]] += r['h']; tch[T['teachers'][r['tch']]['names'][0]] += r['h']
+        if r['part'] != 2: cls[cnames[r['cls']][0]] += r['tot']
+        tch[T['teachers'][r['tch']]['names'][0]] += r['tot']
     return dict(dl=dl, days=days, hours=hours, room_slot=room_slot, tch_slot=tch_slot,
                 cls=cls, tch=tch, cnames=cnames, les=les, T=T,
                 n_def=dict(razredi=len(cnames), predmeti=len(T['subjects']),
@@ -86,7 +98,7 @@ def build(roz, fet, outdir, dest, soft=1):
     tbl = '\n'.join(f'<tr><th>{e(a)}</th><td class="n dim">{b}</td><td class="n">{c}</td>'
                     f'<td class="wh">{e(d)}</td></tr>' for a, b, c, d in rows)
     tiles = [(f"{tot}", "sati smješteno", f"od {tot} traženih"),
-             ("0", "rupa i pauza", "kod razreda i kod nastavnika"),
+             ("0", "rupa kod razreda", "nastavnici najviše 1 dnevno"),
              (str(g['dl'].get(5, 0)), "dana od pet sati", f"nijedan kraći; {g['dl'].get(6,0)}×6h, {g['dl'].get(7,0)}×7h"),
              (str(soft), "prekršeno meko ograničenje", "dvosat isti dan, spojen"),
              ("&lt;1 s", "trajanje izračuna", "FET 7.10.3")]
@@ -169,7 +181,7 @@ footer{color:var(--mut);font-size:12.5px;line-height:1.65;margin-top:50px;
 Za nekoga tko i sam slaže rasporede.</p>
 
 <h2>Rezultat izračuna</h2>
-<p>Jedan prolaz FET-a, bez ručnih zahvata.</p>
+<p>Šesnaest prolaza FET-a s različitim sjemenom, bez ručnih zahvata; prikazan je najbolji.</p>
 <div class="tiles">%%TILES%%</div>
 
 <h2>Brojke koje stvarno stoje</h2>
@@ -179,11 +191,11 @@ desni je ono što stvarno ulazi u raspored.</p>
 <th class="n">u nastavi</th><th>razlika</th></tr></thead><tbody>%%TABLE%%</tbody></table></div>
 
 <h2>Duljine nastavnih dana</h2>
-<p>Kratki dani su smetnja, pa se drže na minimumu. Tvrdi minimum je pet sati, a razredi
-s 33 sata tjedno drže minimum šest. Iznad toga praga rješenja nema — provjereno bisekcijom,
-već pri pragu 32 sata FET stane na 803 od 890 sati. Ostatak se dobiva izborom među
-ishodima: četrnaest prolaza s različitim sjemenom, uzet je onaj s najmanje kratkih dana
-(raspon je bio od 26 do 39).</p>
+<p>Nijedan dan nije kraći od pet sati — to je tvrdo ograničenje. Petice se drže na minimumu,
+ali se ne daju sasvim izbjeći: iako bi svaki razred pojedinačno stao u same šestice i sedmice
+(svi imaju 30–35 sati, a 6×5=30), nameće ih gustoća cijele škole. Meka preferencija šest sati
+pala je u svih šesnaest pokušaja. Ostatak se dobiva izborom među ishodima: šesnaest prolaza
+s različitim sjemenom, uzet onaj s najmanje petica (raspon je bio 9 do 17).</p>
 %%DL%%
 
 <h2>Tjedno opterećenje po razredu</h2>
@@ -204,7 +216,8 @@ u vršnom terminu ostaje vrlo malo praznih učionica.</p>
 <h2>Što model sadrži, a što ne</h2>
 <div class="wrap"><table><tbody>
 <tr><th>Sadrži</th><td>zabranu sudara nastavnika, razreda i učionica; <b>svaki razred počinje
-prvim satom</b>; <b>nijedan razred nema rupu u danu</b>; <b>nijedan nastavnik nema pauzu u danu</b>;
+prvim satom</b>; <b>nijedan razred nema rupu u danu</b>; <b>nijedan dan kraći od pet sati</b>;
+<b>nastavnik najviše jednu pauzu dnevno</b>; blok-nastavu kao jedan neprekinut termin;
 razmak po danima za višesatne predmete; istovremenost podijeljenih grupa; dodjelu učionica bez
 sudara. Sve navedeno je tvrdo ograničenje i provjereno je na gotovom rasporedu, neovisno o
 FET-ovoj poruci o uspjehu.</td></tr>
