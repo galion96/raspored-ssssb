@@ -20,6 +20,7 @@ a{color:inherit;text-decoration:none}
 .kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);font-weight:640}
 h1{font-size:clamp(28px,5vw,44px);line-height:1.1;margin:10px 0 6px;font-weight:660;letter-spacing:-.02em}
 .sub{color:var(--mut);font-size:16px;margin:0}
+.lnk{color:var(--acc);font-weight:550}.lnk:hover{text-decoration:underline}
 .stats{display:flex;gap:30px;flex-wrap:wrap;margin-top:26px;padding-top:22px;border-top:1px solid var(--line)}
 .stats div{display:flex;flex-direction:column}
 .stats b{font-size:24px;font-weight:660;font-variant-numeric:tabular-nums}
@@ -71,8 +72,8 @@ footer b{color:var(--fg);font-weight:600}
 <div class="hero">
   <div class="kicker">Raspored sati · 2026 / 2027</div>
   <h1>Srednja strukovna škola Široki Brijeg</h1>
-  <p class="sub">Odaberi razred, nastavnika ili učionicu.</p>
-  <div class="stats"><div><b>36</b><span>razreda</span></div><div><b>63</b><span>nastavnika</span></div><div><b>31</b><span>učionica</span></div><div><b>890</b><span>sati tjedno</span></div></div>
+  <p class="sub">Odaberi razred, nastavnika ili učionicu. &nbsp;·&nbsp; <a href="analiza.html" class="lnk">Kako je nastao →</a></p>
+  <div class="stats"><div><b>30</b><span>razreda</span></div><div><b>58</b><span>nastavnika</span></div><div><b>108</b><span>predmeta</span></div><div><b>31</b><span>učionica</span></div><div><b>890</b><span>sati tjedno</span></div></div>
 </div>
 <div class="bar"><div class="in"><a class="tab" data-kind="razred" href="#razred">Razredi</a><a class="tab" data-kind="nastavnik" href="#nastavnik">Nastavnici</a><a class="tab" data-kind="ucionica" href="#ucionica">Učionice</a><input id="find" type="search" placeholder="Traži…" autocomplete="off"></div></div>
 <main><div class="tiles" data-kind="razred" hidden>
@@ -6324,6 +6325,7 @@ footer b{color:var(--fg);font-weight:600}
   Generirano 05.09.2026. iz podataka škole.
   <b>Napomena:</b> dostupnost nastavnika nije uključena u izradu, a učionice su dodijeljene
   automatski bez posebnih zahtjeva pojedinih predmeta — prije objave provjeriti.
+  Detalji na <a href="analiza.html">stranici s analizom</a>.
 </footer>
 <script>
 var tiles=[].slice.call(document.querySelectorAll('.tiles')),

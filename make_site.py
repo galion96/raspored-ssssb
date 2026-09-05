@@ -35,7 +35,7 @@ def collect(fet_path, outdir):
     kinds = [('razred', 'Razredi', sorted(years, key=order), years),
              ('nastavnik', 'Nastavnici', sorted({a['t'] for a in acts.values()}), {}),
              ('ucionica', 'Učionice', sorted({k[1] for k in cells if k[0] == 'ucionica'}, key=order), {})]
-    return days, hours, cells, load, kinds, len(acts)
+    return days, hours, cells, load, kinds, len(acts), len({a['s'] for a in acts.values()})
 
 def grid(days, hours, cell):
     o = ['<div class="wrap"><table><thead><tr><th class="corner"></th>' +
@@ -53,7 +53,7 @@ def grid(days, hours, cell):
     return '\n'.join(o + ['</tbody></table></div>'])
 
 def build(fet, outdir, dest):
-    days, hours, cells, load, kinds, nact = collect(fet, outdir)
+    days, hours, cells, load, kinds, nact, nsub = collect(fet, outdir)
     tiles, sheets = [], []
     for kind, label, names, meta in kinds:
         t = [f'<div class="tiles" data-kind="{kind}" hidden>']
@@ -68,7 +68,12 @@ def build(fet, outdir, dest):
                 f'<div class="shead"><a class="back" href="#{kind}">← {e(label)}</a>'
                 f'<h2>{e(n)}</h2><p>{e(meta.get(n,"") or "")}</p></div>'
                 f'{grid(days, hours, cells[(kind, n)])}</section>')
-    stats = [(len(kinds[0][2]), 'razreda'), (len(kinds[1][2]), 'nastavnika'),
+    # naslovne brojke broje samo ono što se stvarno predaje: bez 'O' oznaka za
+    # obilazak prakse i bez PRAK.NAST.VAN.SK nositelja koji nisu osobe
+    n_cls = sum(1 for n in kinds[0][2] if not n.endswith('O'))
+    n_tch = sum(1 for n in kinds[1][2] if 'PRAK' not in n)
+    n_sub = len({a['s'] for a in acts.values()}) if False else nsub
+    stats = [(n_cls, 'razreda'), (n_tch, 'nastavnika'), (n_sub, 'predmeta'),
              (len(kinds[2][2]), 'učionica'), (nact, 'sati tjedno')]
     doc = (TPL.replace('%%SCHOOL%%', e(SCHOOL)).replace('%%YEAR%%', e(YEAR))
               .replace('%%STATS%%', ''.join(f'<div><b>{a}</b><span>{e(b)}</span></div>' for a, b in stats))
@@ -101,6 +106,7 @@ a{color:inherit;text-decoration:none}
 .kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);font-weight:640}
 h1{font-size:clamp(28px,5vw,44px);line-height:1.1;margin:10px 0 6px;font-weight:660;letter-spacing:-.02em}
 .sub{color:var(--mut);font-size:16px;margin:0}
+.lnk{color:var(--acc);font-weight:550}.lnk:hover{text-decoration:underline}
 .stats{display:flex;gap:30px;flex-wrap:wrap;margin-top:26px;padding-top:22px;border-top:1px solid var(--line)}
 .stats div{display:flex;flex-direction:column}
 .stats b{font-size:24px;font-weight:660;font-variant-numeric:tabular-nums}
@@ -152,7 +158,7 @@ footer b{color:var(--fg);font-weight:600}
 <div class="hero">
   <div class="kicker">Raspored sati · %%YEAR%%</div>
   <h1>%%SCHOOL%%</h1>
-  <p class="sub">Odaberi razred, nastavnika ili učionicu.</p>
+  <p class="sub">Odaberi razred, nastavnika ili učionicu. &nbsp;·&nbsp; <a href="analiza.html" class="lnk">Kako je nastao →</a></p>
   <div class="stats">%%STATS%%</div>
 </div>
 <div class="bar"><div class="in">%%TABS%%<input id="find" type="search" placeholder="Traži…" autocomplete="off"></div></div>
@@ -161,6 +167,7 @@ footer b{color:var(--fg);font-weight:600}
   Generirano %%DATE%% iz podataka škole.
   <b>Napomena:</b> dostupnost nastavnika nije uključena u izradu, a učionice su dodijeljene
   automatski bez posebnih zahtjeva pojedinih predmeta — prije objave provjeriti.
+  Detalji na <a href="analiza.html">stranici s analizom</a>.
 </footer>
 <script>
 var tiles=[].slice.call(document.querySelectorAll('.tiles')),

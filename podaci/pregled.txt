@@ -1,0 +1,536 @@
+Izvor: /Users/filipgalic/Desktop/SSSSB_2026-27_v1.roz
+36 razreda, 195 predmeta, 63 nastavnika, 31 učionica, 462 stavki nastave
+
+=== Ia - elektrotehničari  (31 sati/tjedan) ===
+  4h  osnove elektrotehnike                         Lucija Rozić
+  4h  matematika                                    Marija Soldo
+  3h  fizika                                        David Galic
+  3h  hrvatski jezik                                Marija Šaravanja
+  2h  povijest                                      Darko Bošnjak
+  2h  geografija                                    Marko Marušić
+  2h  strani jezik                                  Ivana Ivanković
+  2h  računalstvo                                   Sanja Slišković
+  2h  Kemija                                        Snježana Slišković
+  2h  tjelesna  i z k                               Marko Kraljević
+  1h  radioničke vježbe                             Marijofil Cerkez
+  1h  sat razrednika                                Marko Kraljević
+  1h  tehničko crtanje                              Vinko Zovko
+  1h  Vjeronauk                                     fra Ivan Crnogorac
+  1h  biologija                                     Kristina Marušić
+
+=== Ib - tehničari za mehatroniku  (30 sati/tjedan) ===
+  4h  osnove elektrotehnike                         Antonio Camber
+  3h  hrvatski jezik                                Kristina Tadić
+  3h  matematika                                    Marija Soldo
+  2h  tehnički materijali                           Jozo Cigić
+  2h  tehnička mehanika                             Zdravka Galić
+  2h  fizika                                        David Galic
+  2h  geografija                                    Marko Marušić
+  2h  strani jezik                                  Ivana Corluka
+  2h  tjelesna  i z k                               Marko Kraljević
+  2h  povijest                                      Darko Bošnjak
+  2h  računalstvo                                   Sanja Slišković
+  1h  Vjeronauk                                     fra Ivan Crnogorac
+  1h  tehničko crtanje                              Vinko Zovko
+  1h  sat razrednika                                Martina Cavar
+  1h  praktična nastava                             Martina Cavar
+
+=== Ic - tehničari za mehatroniku  (30 sati/tjedan) ===
+  4h  osnove elektrotehnike                         Matea Soldo
+  3h  matematika                                    Marija Soldo
+  3h  hrvatski jezik                                Marija Šaravanja
+  2h  računalstvo                                   Sanja Slišković
+  2h  tehnička mehanika                             Zdravka Galić
+  2h  povijest                                      Darko Bošnjak
+  2h  fizika                                        David Galic
+  2h  tehnički materijali                           Jozo Cigić
+  2h  strani jezik                                  Ivana Corluka
+  2h  geografija                                    Marko Marušić
+  2h  tjelesna  i z k                               Stjepan Skoko
+  1h  Vjeronauk                                     fra Ivan Crnogorac
+  1h  tehničko crtanje                              Vinko Zovko
+  1h  praktična nastava                             Martina Cavar
+  1h  sat razrednika                                Stjepan Skoko
+
+=== Id - farmaceutski tehničari  (32 sati/tjedan) ===
+  4h  hrvatski jezik                                Kristina Tadić
+  3h  Kemija                                        Snježana Slišković
+  3h  matematika                                    Ana Colak
+  2h  fizika                                        David Galic
+  2h  latinski jezik                                Iva Soldo
+  2h  biologija                                     Ivana Knezović
+  2h  osnove zdravstvene struke                     Matea Knezović
+  2h  strani jezik                                  Andrijana Musa
+  2h  geografija                                    Mateo Zadro
+  2h  povijest                                      Darko Bošnjak
+  2h  tjelesna  i z k                               Marko Kvesić
+  2h  računalstvo                                   Ružica Džajkić
+  1h  Vjeronauk                                     fra Ivan Crnogorac
+  1h  anatomija  i fiziologija                      Matea Knezović
+  1h  sat razrednika                                Andrijana Musa
+  1h  uvod u labaratorijski rad                     Snježana Slišković
+
+=== Ie - ekonomisti  (33 sati/tjedan) ===
+  3h  hrvatski jezik                                Diana Zovko
+  3h  strani jezik                                  Ivana Ivanković
+  3h  matematika                                    Ana Marija Soldo
+  2h  Kemija                                        Snježana Slišković
+  2h  biologija                                     Ivana Knezović
+  2h  geografija                                    Mateo Zadro
+  2h  izborna nastav.obiteljski posao               Iva Cavar  [2. grupa]
+  2h  izborna nas. globalno poslov okruženje        Zdravka Đolo  [1. grupa]
+  2h  tjelesna  i z k                               Marko Kraljević
+  2h  poslovne komunikacije                         Irena Lončar
+  2h  poduzetništvo                                 Mila Culjak
+  2h  povijest                                      Darko Bošnjak
+  2h  informatika                                   Ružica Džajkić
+  1h  Vjeronauk                                     fra Ivan Crnogorac
+  1h  knjigovodstvo s bilanciranjem                 Anita Kvesić
+  1h  knjigovodstvo s bilanciranjem                 Anita Kvesić
+  1h  sat razrednika                                Darko Bošnjak
+
+=== If - ekonomisti  (33 sati/tjedan) ===
+  3h  matematika                                    Anita Marić
+  3h  hrvatski jezik                                Marija Šaravanja
+  3h  strani jezik                                  Ivana Ivanković
+  2h  geografija                                    Mateo Zadro
+  2h  informatika                                   Ružica Džajkić
+  2h  povijest                                      Darko Bošnjak
+  2h  biologija                                     Ivana Knezović
+  2h  izborna nastav.obiteljski posao               Iva Cavar  [2. grupa]
+  2h  poduzetništvo                                 Mila Culjak
+  2h  Kemija                                        Snježana Slišković
+  2h  poslovne komunikacije                         Irena Lončar
+  2h  izborna nas. globalno poslov okruženje        Zdravka Đolo  [1. grupa]
+  2h  tjelesna  i z k                               Marko Kvesić
+  1h  Vjeronauk                                     fra Ivan Crnogorac
+  1h  knjigovodstvo s bilanciranjem                 Anita Kvesić
+  1h  knjigovodstvo s bilanciranjem                 Anita Kvesić
+  1h  sat razrednika                                Irena Lončar
+
+=== Ig - tehničari za logistiku i špediciju  (32 sati/tjedan) ===
+  3h  matematika                                    Anita Marić
+  3h  hrvatski jezik                                Diana Brzica Sesar
+  3h  strani jezik                                  Luka Rogalo
+  2h  povijest                                      Darko Bošnjak
+  2h  geografija                                    Mateo Zadro
+  2h  računalstvo                                   Ružica Džajkić
+  2h  fizika                                        David Galic
+  2h  prometno pravo                                Antonio Lončar
+  2h  Osnove prijevoza i prijenosa                  Antonio Lončar
+  2h  Poznavanje robe                               Ružica Šaravanja
+  2h  cestovna vozila                               Andrea Knezović
+  2h  strani jezik                                  Vanja Tica
+  2h  tjelesna  i z k                               Marko Kraljević
+  1h  Vjeronauk                                     fra Ivan Crnogorac
+  1h  biologija                                     Kristina Marušić
+  1h  sat razrednika                                David Galic
+
+=== Ih - tehničari za logistiku i špediciju  (32 sati/tjedan) ===
+  3h  strani jezik                                  Luka Rogalo
+  3h  matematika                                    Marija Soldo
+  3h  hrvatski jezik                                Ognjen Karačić
+  2h  povijest                                      Darko Bošnjak
+  2h  geografija                                    Mateo Zadro
+  2h  računalstvo                                   Ružica Džajkić
+  2h  fizika                                        David Galic
+  2h  Osnove prijevoza i prijenosa                  Antonio Lončar
+  2h  prometno pravo                                Antonio Lončar
+  2h  Poznavanje robe                               Ružica Šaravanja
+  2h  cestovna vozila                               Andrea Knezović
+  2h  strani jezik                                  Vanja Tica
+  2h  tjelesna  i z k                               Marko Kraljević
+  1h  Vjeronauk                                     fra Ivan Crnogorac
+  1h  biologija                                     Kristina Marušić
+  1h  sat razrednika                                Marija Soldo
+
+=== Ii - automehaničari  (22 sati/tjedan) ===
+  3h  hrvatski jezik                                Diana Brzica Sesar
+  2h  tjelesna  i z k                               Marko Kvesić
+  2h  povijest                                      Mateo Zadro
+  2h  matematika                                    Marija Soldo
+  2h  strani jezik                                  Ivana Corluka
+  2h  praktična nastava                             Zvonimir Kožul
+  2h  tehnički materijali                           Zdravka Galić
+  2h  tehnička mehanika                             Zdravka Galić
+  2h  tehnologija obrade i montaže                  Jelena Slišković
+  1h  Vjeronauk                                     fra Ivan Crnogorac
+  1h  tehničko crtanje                              Vinko Zovko
+  1h  sat razrednika                                Vinko Zovko
+
+=== Ij - konobari  (24 sati/tjedan) ===
+  3h  strani jezik                                  Vanja Tica
+  3h  hrvatski jezik                                Diana Zovko
+  2h  tjelesna  i z k                               Ivan Spajic
+  2h  povijest                                      Mateo Zadro
+  2h  matematika                                    Ana Colak
+  2h  strani jezik                                  Vanja Tica
+  2h  gospodarsko poslovanje                        Mila Culjak
+  2h  poznavanje robe i prehrane                    Ivana Knezović
+  2h  biologija s higijenom i ekologijom            Ivana Knezović
+  1h  Vjeronauk                                     fra Ivan Crnogorac
+  1h  praktična nastava                             PRAK.NAST.VAN.SK 1j konobar
+  1h  ugostiteljsko posluživanje                    Zdenko Zovko
+  1h  sat razrednika                                Ivana Knezović
+
+=== IIa - elektrotehničari  (31 sati/tjedan) ===
+  4h  matematika                                    Ana Colak
+  3h  fizika                                        David Galic
+  3h  osnove elektrotehnike                         Ivona Boban
+  3h  hrvatski jezik                                Kristina Tadić
+  3h  mjerenja u elektrotehnici                     Ivona Boban
+  2h  povijest                                      Marko Marušić
+  2h  elektrotehnički materijali i komponente       Matea Soldo
+  2h  strani jezik                                  Andrijana Musa
+  2h  računalstvo                                   Ružica Džajkić
+  2h  tjelesna  i z k                               Stjepan Skoko
+  1h  geografija                                    Darko Bošnjak
+  1h  radioničke vježbe                             Ivona Boban  [1. grupa]
+  1h  radioničke vježbe                             Lucija Rozić  [2. grupa]
+  1h  Vjeronauk                                     Mario Rozic
+  1h  sat razrednika                                Ivona Boban
+
+=== IIb - tehničari za mehatroniku  (33 sati/tjedan) ===
+  3h  hrvatski jezik                                Ognjen Karačić
+  3h  matematika                                    Ana Marija Soldo
+  3h  elektronički sklopovi                         Lucija Rozić
+  2h  fizika                                        David Galic
+  2h  tehnička mehanika                             Zdravka Galić
+  2h  elementi strojeva                             Zdravka Galić
+  2h  strani jezik                                  Ivana Ivanković
+  2h  tjelesna  i z k                               Stjepan Skoko
+  2h  povijest                                      Marko Marušić
+  2h  električni strojevi                           Antonio Camber
+  2h  električne instalacije                        Antonio Camber
+  2h  računalstvo                                   Ružica Džajkić
+  1h  Vjeronauk                                     Mario Rozic
+  1h  radioničke vježbe                             Marijofil Cerkez  [2. grupa]
+  1h  radioničke vježbe                             Matea Soldo  [1. grupa]
+  1h  tehničko crtanje                              Vinko Zovko
+  1h  geografija                                    Darko Bošnjak
+  1h  sat razrednika                                Ana Marija Soldo
+
+=== IIc - farmaceutski tehničari  (32 sati/tjedan) ===
+  4h  hrvatski jezik                                Ognjen Karačić
+  3h  matematika                                    Ana Marija Soldo
+  3h  organska kemija                               Ivana Knezović
+  2h  biologija                                     Ivana Knezović
+  2h  latinski jezik                                Iva Soldo
+  2h  fizika                                        David Galic
+  2h  analitička kemija                             Snježana Slišković
+  2h  anatomija  i fiziologija                      Matea Knezović
+  2h  medicinska mikrobiologija                     Matea Knezović
+  2h  tjelesna  i z k                               Stjepan Skoko
+  2h  strani jezik                                  Ivana Ivanković
+  2h  povijest                                      Marko Marušić
+  1h  analitička kemija                             Snježana Slišković
+  1h  sat razrednika                                Ognjen Karačić
+  1h  geografija                                    Darko Bošnjak
+  1h  Vjeronauk                                     Mario Rozic
+
+=== IId - ekonomisti  (31 sati/tjedan) ===
+  3h  matematika                                    Marija Ivanković
+  3h  strani jezik                                  Andrijana Musa
+  3h  hrvatski jezik                                Ognjen Karačić
+  2h  informatika                                   Sanja Slišković
+  2h  novčarstvo                                    Iva Cavar
+  2h  knjigovodstvo s bilanciranjem                 Danijela Lasić
+  2h  izborna nasta.osnove turizma                  Zdravka Đolo
+  2h  gospodarstvo                                  Anita Kvesić
+  2h  poduzetništvo                                 Iva Cavar
+  2h  geografija                                    Mateo Zadro
+  2h  povijest                                      Marko Marušić
+  2h  tjelesna  i z k                               Marko Kraljević
+  1h  Vjeronauk                                     Mario Rozic
+  1h  sat razrednika                                Danijela Lasić
+  1h  knjigovodstvo s bilanciranjem                 Danijela Lasić
+  1h  energetika                                    Andrea Knezović
+
+=== IIe - ekonomisti  (31 sati/tjedan) ===
+  3h  matematika                                    Anita Marić
+  3h  strani jezik                                  Ivana Corluka
+  3h  hrvatski jezik                                Kristina Tadić
+  2h  informatika                                   Sanja Slišković
+  2h  novčarstvo                                    Iva Cavar
+  2h  knjigovodstvo s bilanciranjem                 Danijela Lasić
+  2h  izborna nasta.osnove turizma                  Zdravka Đolo
+  2h  geografija                                    Mateo Zadro
+  2h  povijest                                      Marko Marušić
+  2h  gospodarstvo                                  Anita Kvesić
+  2h  poduzetništvo                                 Iva Cavar
+  2h  tjelesna  i z k                               Ivan Spajic
+  1h  Vjeronauk                                     Mario Rozic
+  1h  sat razrednika                                Iva Cavar
+  1h  knjigovodstvo s bilanciranjem                 Danijela Lasić
+  1h  energetika                                    Andrea Knezović
+
+=== IIf - komercijalisti  (28 sati/tjedan) ===
+  3h  matematika                                    Anita Marić
+  3h  hrvatski jezik                                Diana Brzica Sesar
+  3h  strani jezik                                  Vanja Tica
+  3h  Poznavanje robe                               Snježana Slišković
+  3h  trgovinsko poslovanje                         Irena Lončar
+  2h  informatika                                   Sanja Slišković
+  2h  strani jezik                                  Vanja Tica
+  2h  povijest                                      Marko Marušić
+  2h  geografija                                    Darko Bošnjak
+  2h  tjelesna  i z k                               Marko Kraljević
+  1h  praktična nastava                             PRAK.NAST.VAN.SK 2f komerc
+  1h  Vjeronauk                                     Mario Rozic
+  1h  sat razrednika                                Mario Rozic
+
+=== IIg - CNC operateri  (20 sati/tjedan) ===
+  3h  hrvatski jezik                                Diana Brzica Sesar
+  2h  matematika                                    Marija Ivanković
+  2h  strani jezik                                  Andrijana Musa
+  2h  politika i građansko društvo, gospodarstvo    Ružica Šaravanja
+  2h  tjelesna  i z k                               Ivan Spajic
+  2h  praktična nastava                             PRAK.NAST.VAN.SK 2g CNC
+  2h  CAD-CAM tehnolgije                            Jelena Slišković
+  1h  Vjeronauk                                     Mario Rozic
+  1h  tehnička mehanika                             Jozo Cigić
+  1h  tehnička mehanika izborni                     Jozo Cigić
+  1h  sat razrednika                                Jozo Cigić
+  1h  CNC strojevi                                  Zvonimir Kožul
+
+=== IIh - CNC operateri  (21 sati/tjedan) ===
+  3h  hrvatski jezik                                Diana Brzica Sesar
+  2h  matematika                                    Marija Ivanković
+  2h  politika i građansko društvo, gospodarstvo    Ružica Šaravanja
+  2h  tjelesna  i z k                               Ivan Spajic
+  2h  praktična nastava                             PRAK.NAST.VAN.SK 2h CNC
+  2h  CAD-CAM tehnolgije                            Jelena Slišković
+  2h  strani jezik                                  Vanja Tica
+  2h  CNC strojevi                                  Jelena Slišković
+  1h  Vjeronauk                                     Mario Rozic
+  1h  tehnička mehanika izborni                     Jozo Cigić
+  1h  tehnička mehanika                             Jozo Cigić
+  1h  sat razrednika                                Jelena Slišković
+
+=== IIi - frizeri  (22 sati/tjedan) ===
+  3h  hrvatski jezik                                Sanja Vasilj
+  2h  tehnologija frizerstva                        Danica Glavina
+  2h  tehnološke vježbe                             Danica Glavina
+  2h  strani jezik                                  Luka Rogalo
+  2h  matematika                                    Marija Ivanković
+  2h  tjelesna  i z k                               Ivan Spajic
+  2h  politika i građansko društvo, gospodarstvo    Ružica Šaravanja
+  2h  praktična nastava                             Danica Glavina
+  1h  Vjeronauk                                     Mario Rozic
+  1h  Poznavanje materijala                         Kristina Marušić
+  1h  Psihologija komunikacije                      Dragana Lovrić
+  1h  zdravstveni odgoj                             Kristina Marušić
+  1h  sat razrednika                                Danica Glavina
+
+=== IIIa - tehničari za mehatroniku  (33 sati/tjedan) ===
+  3h  matematika                                    Ana Colak
+  3h  upravljanje i regulacija                      Andrea Knezović
+  3h  hrvatski jezik                                Ognjen Karačić
+  2h  termodinamika                                 Vinko Zovko
+  2h  mehatroničke konstrukcije                     Jelena Slišković
+  2h  računalstvo                                   Ružica Džajkić
+  2h  senzorika                                     Martina Cavar
+  2h  složene mehatroničke konstrukcije             Andrea Knezović
+  2h  digitalna elektronika                         Antonio Camber
+  2h  Mikroračunala                                 Matea Soldo
+  2h  strani jezik                                  Ivana Ivanković
+  2h  tjelesna  i z k                               Stjepan Skoko
+  2h  pneumatika                                    Andrea Knezović
+  1h  radioničke vježbe                             Marijofil Cerkez  [2. grupa]
+  1h  radioničke vježbe                             Ivona Boban  [1. grupa]
+  1h  Vjeronauk                                     Mario Rozic
+  1h  sat razrednika                                Ivana Ivanković
+
+=== IIIb - računalni tehničari za strojarstvo  (33 sati/tjedan) ===
+  4h  matematika                                    Marija Soldo
+  3h  elektrotehnika                                Ivona Boban
+  3h  hrvatski jezik                                Diana Zovko
+  2h  fizika                                        David Galic
+  2h  upravljanje i regulacija                      Andrea Knezović
+  2h  alati i naprave                               Jelena Slišković
+  2h  termodinamika                                 Vinko Zovko
+  2h  tehnička mehanika                             Zdravka Galić
+  2h  strojarske konstrukcije                       Jelena Slišković
+  2h  hidraulika i pneumatika                       Jelena Slišković
+  2h  strani jezik                                  Ivana Ivanković
+  2h  tjelesna  i z k                               Marko Kraljević
+  1h  Vjeronauk                                     Mario Rozic
+  1h  sat razrednika                                Diana Zovko
+  1h  rač.upr.num.strojevi                          Vinko Zovko
+  1h  praktična nastava                             Jelena Slišković
+  1h  praktična nastava                             Zvonimir Kožul
+
+=== IIIc - ekonomisti  (33 sati/tjedan) ===
+  3h  matematika                                    Anita Marić
+  3h  dioničarsko gospodarstvo                      Danijela Lasić
+  3h  hrvatski jezik                                Ognjen Karačić
+  3h  strani jezik                                  Luka Rogalo
+  2h  tjelesna  i z k                               Stjepan Skoko
+  2h  izborna nastava organizacijsko ponašanje      Anita Kvesić  [2. grupa]
+  2h  Tehnologija s ekologijom                      Ivana Knezović
+  2h  knjigovodstvo s bilanciranjem                 Iva Cavar
+  2h  geografija                                    Mateo Zadro
+  2h  gospodarstvo                                  Ružica Šaravanja
+  2h  poduzetništvo                                 Tamara Zovko
+  2h  izborna nast.računovodstvo neprofitnih organizacija Danijela Lasić  [1. grupa]
+  2h  informatika                                   Sanja Slišković
+  1h  Vjeronauk                                     Mario Rozic
+  1h  sat razrednika                                Sanja Slišković
+  1h  knjigovodstvo s bilanciranjem                 Iva Cavar
+
+=== IIId - ekonomisti  (33 sati/tjedan) ===
+  3h  hrvatski jezik                                Diana Brzica Sesar
+  3h  strani jezik                                  Ivana Corluka
+  3h  dioničarsko gospodarstvo                      Danijela Lasić
+  3h  matematika                                    Marija Ivanković
+  2h  knjigovodstvo s bilanciranjem                 Iva Cavar
+  2h  tjelesna  i z k                               Ivan Spajic
+  2h  geografija                                    Mateo Zadro
+  2h  informatika                                   Sanja Slišković
+  2h  Tehnologija s ekologijom                      Ivana Knezović
+  2h  gospodarstvo                                  Ružica Šaravanja
+  2h  poduzetništvo                                 Tamara Zovko
+  2h  izborna nastava organizacijsko ponašanje      Anita Kvesić  [2. grupa]
+  2h  izborna nast.računovodstvo neprofitnih organizacija Danijela Lasić  [1. grupa]
+  1h  Vjeronauk                                     Mario Rozic
+  1h  sat razrednika                                Ivana Corluka
+  1h  knjigovodstvo s bilanciranjem                 Iva Cavar
+
+=== IIIe - tehničari cestovnog prometa  (30 sati/tjedan) ===
+  3h  matematika                                    Marija Ivanković
+  3h  hrvatski jezik                                Diana Brzica Sesar
+  3h  strani jezik                                  Ivana Corluka
+  3h  prijevoz tereta                               Tamara Zovko
+  2h  tjelesna  i z k                               Ivan Spajic
+  2h  praktična nastava                             Antonio Lončar
+  2h  prometna tehnika                              Antonio Lončar
+  2h  propisi u cestovnom prometu                   Antonio Lončar
+  2h  poslovanje poduzeća u cestovnom prometu       Ružica Šaravanja
+  2h  statistika                                    Zdravka Đolo
+  2h  politika i građansko društvo, gospodarstvo    Zdravka Đolo
+  2h  cestovna vozila                               Andrea Knezović
+  1h  Vjeronauk                                     Mario Rozic
+  1h  sat razrednika                                Antonio Lončar
+
+=== IIIf - elektroinstalateri  (24 sati/tjedan) ===
+  3h  hrvatski jezik                                Diana Zovko
+  2h  matematika                                    Marija Ivanković
+  2h  strani jezik                                  Luka Rogalo
+  2h  tjelesna  i z k                               Marko Kraljević
+  2h  praktična nastava                             Marijofil Cerkez
+  2h  električne instalacije                        Ivona Boban
+  1h  Vjeronauk                                     Mario Rozic
+  1h  sat razrednika                                Antonio Camber
+  1h  praktična nastava                             Marijofil Cerkez
+  1h  električne mreže                              Matea Soldo
+  1h  računalstvo                                   Ružica Džajkić
+  1h  računalstvo                                   Ružica Džajkić  [1. grupa]
+  1h  električni strojevi                           Ivona Boban
+  1h  električni strojevi                           Ivona Boban  [1. grupa]
+  1h  elektroničke komponente                       Antonio Camber
+  1h  elektroničke komponente                       Antonio Camber  [2. grupa]
+  1h  električne mreže                              Matea Soldo  [2. grupa]
+
+=== IIIg - frizeri  (20 sati/tjedan) ===
+  3h  vježbe iz frizerstva                          Danica Glavina
+  2h  praktična nastava                             Mila Bandić
+  2h  frizerstvo s estetikom i vlasuljarstvom       Danica Glavina
+  2h  tjelesna  i z k                               Marko Kvesić
+  2h  računalstvo                                   Ružica Džajkić
+  2h  strani jezik                                  Ivana Ivanković
+  2h  primjenjena kemija                            Ivana Knezović
+  1h  Vjeronauk                                     Mario Rozic
+  1h  praktična nastava                             Mila Bandić
+  1h  dermatologija                                 Kristina Marušić
+  1h  hrvatski jezik                                Marija Šaravanja
+  1h  hrvatski jezik                                Marija Šaravanja
+
+=== IVa - tehničari za mehatroniku  (33 sati/tjedan) ===
+  3h  PLC i mikroupravljači                         Antonio Camber
+  3h  hrvatski jezik                                Kristina Tadić
+  3h  matematika                                    Ana Colak
+  3h  rač.upr.num.strojevi                          Vinko Zovko
+  3h  hidraulika                                    Andrea Knezović
+  2h  kontrola mjerenja                             Vinko Zovko
+  2h  tjelesna  i z k                               Marko Kraljević
+  2h  robotika                                      Martina Cavar
+  2h  vođenje proizvodnih procesa računalom         Antonio Camber
+  2h  strani jezik                                  Ivana Corluka
+  2h  politika i građansko društvo, gospodarstvo    Ružica Šaravanja
+  1h  Vjeronauk                                     Mario Rozic
+  1h  mehanika fluida                               Jelena Slišković
+  1h  mikro i nano mehatronika                      Jelena Slišković
+  1h  radioničke vježbe                             Matea Soldo  [2. grupa]
+  1h  sat razrednika                                Ana Colak
+  1h  radioničke vježbe                             Antonio Camber  [1. grupa]
+
+=== IVb - računalni tehničari za strojarstvo  (32 sati/tjedan) ===
+  4h  matematika                                    Ana Colak
+  3h  hrvatski jezik                                Kristina Tadić
+  2h  praktična nastava                             Jelena Slišković  [1. grupa]
+  2h  praktična nastava                             Zvonimir Kožul  [2. grupa]
+  2h  strani jezik                                  Ivana Corluka
+  2h  politika i građansko društvo, gospodarstvo    Ružica Šaravanja
+  2h  tjelesna  i z k                               Stjepan Skoko
+  2h  toplinski strojevi i uređaji                  Zdravka Galić
+  2h  hidraulika i pneumatika                       Zdravka Galić
+  2h  strojarske konstrukcije                       Zvonimir Kožul
+  2h  vođenje proizvodnih procesa računalom         Andrea Knezović
+  1h  Vjeronauk                                     Mario Rozic
+  1h  sat razrednika                                Kristina Tadić
+  1h  praktična nastava                             Jelena Slišković  [2. grupa]
+  1h  praktična nastava                             Vinko Zovko  [1. grupa]
+  1h  kontrola kvalitete                            Martina Cavar
+  1h  rač.upr.num.strojevi                          Vinko Zovko
+  1h  izborna nastava računalom upravljani numerički strojevi Vinko Zovko
+
+=== IVc - ekonomisti  (33 sati/tjedan) ===
+  3h  gospodarsko pravo                             Zdravka Đolo
+  3h  hrvatski jezik                                Diana Zovko
+  3h  strani jezik                                  Marija Šaravanja
+  3h  matematika                                    Anita Marić
+  2h  tjelesna  i z k                               Stjepan Skoko
+  2h  knjigovodstvo s bilanciranjem                 Mila Culjak
+  2h  marketing                                     Irena Lončar
+  2h  gospodarstvo                                  Anita Kvesić
+  2h  izbor. nas.vanjs.trg. poslo                   Anita Kvesić  [2. grupa]
+  2h  izborna nastava međunarodna razmjena i gospodarstvo svijeta Ružica Šaravanja  [1. grupa]
+  2h  poduzetništvo                                 Danijela Lasić
+  2h  statistika                                    Zdravka Đolo
+  2h  geografija                                    Marko Marušić
+  1h  Vjeronauk                                     Mario Rozic
+  1h  knjigovodstvo s bilanciranjem                 Mila Culjak
+  1h  sat razrednika                                Marko Marušić
+
+=== IVd - komercijalisti  (29 sati/tjedan) ===
+  3h  trgovinsko poslovanje                         Irena Lončar
+  3h  tehnika vanjskotrgovinskog poslovanja         Anita Kvesić
+  3h  poduzetništvo                                 Zdravka Đolo
+  3h  strani jezik                                  Marija Šaravanja
+  3h  matematika                                    Anita Marić
+  3h  hrvatski jezik                                Diana Zovko
+  2h  strani jezik izborni                          Vanja Tica
+  2h  promidžbene aktivnosti                        Tamara Zovko
+  2h  osnove trgovačkog prava                       Tamara Zovko
+  2h  tjelesna  i z k                               Marko Kraljević
+  1h  Vjeronauk                                     Mario Rozic
+  1h  praktična nastava                             PRAK.NAST.VAN.SK 4d komerc
+  1h  sat razrednika                                Vanja Tica
+
+=== IjO  (1 sati/tjedan) ===
+  1h  PRAKSA OBILAZK                                Zdenko Zovko
+
+=== IIfO  (1 sati/tjedan) ===
+  1h  PRAKSA OBILAZK                                Irena Lončar
+
+=== IIgO  (2 sati/tjedan) ===
+  2h  PRAKSA OBILAZK                                Jozo Cigić
+
+=== IIhO  (2 sati/tjedan) ===
+  2h  PRAKSA OBILAZK                                Jozo Cigić
+
+=== IIiO  (2 sati/tjedan) ===
+  2h  PRAKSA OBILAZK                                Mila Bandić
+
+=== IVdO  (1 sati/tjedan) ===
+  1h  PRAKSA OBILAZK                                Irena Lončar

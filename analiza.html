@@ -1,0 +1,260 @@
+<!doctype html><html lang="hr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Analiza rasporeda — SSŠ Široki Brijeg</title>
+<meta name="robots" content="noindex,nofollow"><style>
+:root{--bg:#faf8f5;--panel:#fff;--fg:#1c1a17;--mut:#6f6a62;--line:#e6e1d9;--acc:#9a5b2d;
+ --acc-soft:#f2e7dc;--data:#2a78d6;--shadow:0 1px 2px rgba(0,0,0,.04),0 6px 20px rgba(0,0,0,.05);--s0:#86b6ef;--s1:#3987e5;--s2:#1c5cab;--s3:#0d366b;}
+@media(prefers-color-scheme:dark){:root{--bg:#15140f;--panel:#1d1b17;--fg:#ece7de;--mut:#9b948a;
+ --line:#332f28;--acc:#d99a5e;--acc-soft:#2b2318;--data:#3987e5;
+ --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.35);--s0:#184f95;--s1:#2a78d6;--s2:#5598e7;--s3:#b7d3f6;}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);
+ font:15px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--acc)}
+main{max-width:980px;margin:0 auto;padding:46px 24px 80px}
+.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);font-weight:640}
+h1{font-size:clamp(26px,4.5vw,38px);margin:10px 0 8px;font-weight:660;letter-spacing:-.02em}
+.lede{color:var(--mut);max-width:62ch;margin:0 0 34px}
+h2{font-size:19px;margin:44px 0 6px;font-weight:640;letter-spacing:-.01em}
+h2+p{color:var(--mut);font-size:13.5px;margin:0 0 16px;max-width:66ch}
+.tiles{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(158px,1fr));margin-bottom:8px}
+.tile{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:15px;box-shadow:var(--shadow)}
+.tile b{display:block;font-size:29px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.tile span{display:block;font-size:12.5px;margin-top:2px}
+.tile em{display:block;font-style:normal;font-size:11.5px;color:var(--mut);margin-top:3px}
+table{border-collapse:collapse;width:100%;background:var(--panel)}
+.wrap{overflow-x:auto;border:1px solid var(--line);border-radius:11px;box-shadow:var(--shadow)}
+th,td{padding:8px 11px;text-align:left;border-bottom:1px solid var(--line);font-size:13.5px;vertical-align:top}
+tbody tr:last-child th,tbody tr:last-child td{border-bottom:0}
+thead th{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.05em;background:var(--acc-soft)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;font-weight:600;width:88px}
+td.dim{color:var(--mut);font-weight:400;text-decoration:line-through}
+td.wh{color:var(--mut);font-size:12.5px}
+.bars{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:12px 14px;
+ box-shadow:var(--shadow);max-height:440px;overflow-y:auto}
+.bar{display:grid;grid-template-columns:118px 1fr 30px;gap:9px;align-items:center;padding:2.5px 0}
+.bl{font-size:12px;color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bt{background:color-mix(in srgb,var(--line) 55%,transparent);border-radius:4px;height:11px;overflow:hidden}
+.bt i{display:block;height:100%;background:var(--data);border-radius:0 4px 4px 0}
+.bv{font-size:12px;font-variant-numeric:tabular-nums;text-align:right;color:var(--mut)}
+table.heat td.hc{text-align:center;font-variant-numeric:tabular-nums;font-weight:600;
+ font-size:12.5px;color:#fff;border:2px solid var(--panel);border-radius:5px}
+table.heat td.s0{background:var(--s0);color:#0b2a52}table.heat td.s1{background:var(--s1)}
+table.heat td.s2{background:var(--s2)}table.heat td.s3{background:var(--s3)}
+table.heat th.dy{font-size:12px;color:var(--mut);width:52px}
+table.heat thead th{text-align:center}
+.scale{display:flex;gap:6px;align-items:center;margin-top:9px;font-size:11.5px;color:var(--mut)}
+.scale i{width:26px;height:11px;border-radius:3px;display:inline-block}
+.scale i.s0{background:var(--s0)}.scale i.s1{background:var(--s1)}
+.scale i.s2{background:var(--s2)}.scale i.s3{background:var(--s3)}
+.scale em{font-style:normal;margin-left:8px}
+#tip{position:fixed;pointer-events:none;background:var(--fg);color:var(--bg);font-size:12px;
+ padding:5px 9px;border-radius:6px;opacity:0;transition:opacity .1s;z-index:20;max-width:270px}
+.back{font-size:13px}
+footer{color:var(--mut);font-size:12.5px;line-height:1.65;margin-top:50px;
+ border-top:1px solid var(--line);padding-top:18px}
+</style></head><body><main>
+<a class="back" href="./">← Raspored</a>
+<div class="kicker" style="margin-top:20px">Kako je raspored nastao</div>
+<h1>Analiza</h1>
+<p class="lede">Što je ušlo u izračun, što je iz njega izašlo, i gdje su granice.
+Za nekoga tko i sam slaže rasporede.</p>
+
+<h2>Rezultat izračuna</h2>
+<p>Jedan prolaz FET-a, bez ručnih zahvata.</p>
+<div class="tiles"><div class="tile"><b>890</b><span>sati smješteno</span><em>od 890 traženih</em></div><div class="tile"><b>0</b><span>rupa u rasporedima</span><em>kroz svih 36 rasporeda</em></div><div class="tile"><b>1</b><span>prekršeno meko ograničenje</span><em>dvosat isti dan, spojen</em></div><div class="tile"><b>&lt;1 s</b><span>trajanje izračuna</span><em>FET 7.10.3</em></div></div>
+
+<h2>Brojke koje stvarno stoje</h2>
+<p>aSc datoteka nosi i zapise koji se ne predaju. Lijevi stupac je ono što u njoj piše,
+desni je ono što stvarno ulazi u raspored.</p>
+<div class="wrap"><table><thead><tr><th></th><th class="n">u datoteci</th>
+<th class="n">u nastavi</th><th>razlika</th></tr></thead><tbody><tr><th>Razredi</th><td class="n dim">36</td><td class="n">30</td><td class="wh">šest oznaka s „O&quot; (IjO, IIfO, IIgO, IIhO, IIiO, IVdO) nisu razredi nego stavke za obilazak prakse</td></tr>
+<tr><th>Predmeti</th><td class="n dim">195</td><td class="n">108</td><td class="wh">ostatak je definiran u aSc datoteci, ali ga ove godine nitko ne sluša</td></tr>
+<tr><th>Nastavnici</th><td class="n dim">63</td><td class="n">58</td><td class="wh">pet zapisa „PRAK.NAST.VAN.SK…&quot; su nositelji prakse van škole, ne osobe</td></tr>
+<tr><th>Učionice</th><td class="n dim">31</td><td class="n">31</td><td class="wh">—</td></tr></tbody></table></div>
+
+<h2>Tjedno opterećenje po razredu</h2>
+<p>30 razreda. Mreža ima 35 termina (5 dana × 7 sati), pa najopterećeniji razred
+troši 33 od 35 — dva slobodna termina u tjednu.</p>
+<div class="bars">
+<div class="bar" data-tip="IIb — 33 sati tjedno"><span class="bl">IIb</span><span class="bt"><i style="width:100.0%"></i></span><span class="bv">33</span></div>
+<div class="bar" data-tip="IIIc — 33 sati tjedno"><span class="bl">IIIc</span><span class="bt"><i style="width:100.0%"></i></span><span class="bv">33</span></div>
+<div class="bar" data-tip="IVc — 33 sati tjedno"><span class="bl">IVc</span><span class="bt"><i style="width:100.0%"></i></span><span class="bv">33</span></div>
+<div class="bar" data-tip="IVa — 33 sati tjedno"><span class="bl">IVa</span><span class="bt"><i style="width:100.0%"></i></span><span class="bv">33</span></div>
+<div class="bar" data-tip="Ie — 33 sati tjedno"><span class="bl">Ie</span><span class="bt"><i style="width:100.0%"></i></span><span class="bv">33</span></div>
+<div class="bar" data-tip="IIId — 33 sati tjedno"><span class="bl">IIId</span><span class="bt"><i style="width:100.0%"></i></span><span class="bv">33</span></div>
+<div class="bar" data-tip="IIIa — 33 sati tjedno"><span class="bl">IIIa</span><span class="bt"><i style="width:100.0%"></i></span><span class="bv">33</span></div>
+<div class="bar" data-tip="If — 33 sati tjedno"><span class="bl">If</span><span class="bt"><i style="width:100.0%"></i></span><span class="bv">33</span></div>
+<div class="bar" data-tip="IIIb — 33 sati tjedno"><span class="bl">IIIb</span><span class="bt"><i style="width:100.0%"></i></span><span class="bv">33</span></div>
+<div class="bar" data-tip="Id — 32 sati tjedno"><span class="bl">Id</span><span class="bt"><i style="width:97.0%"></i></span><span class="bv">32</span></div>
+<div class="bar" data-tip="Ig — 32 sati tjedno"><span class="bl">Ig</span><span class="bt"><i style="width:97.0%"></i></span><span class="bv">32</span></div>
+<div class="bar" data-tip="Ih — 32 sati tjedno"><span class="bl">Ih</span><span class="bt"><i style="width:97.0%"></i></span><span class="bv">32</span></div>
+<div class="bar" data-tip="IIc — 32 sati tjedno"><span class="bl">IIc</span><span class="bt"><i style="width:97.0%"></i></span><span class="bv">32</span></div>
+<div class="bar" data-tip="IVb — 32 sati tjedno"><span class="bl">IVb</span><span class="bt"><i style="width:97.0%"></i></span><span class="bv">32</span></div>
+<div class="bar" data-tip="IIe — 31 sati tjedno"><span class="bl">IIe</span><span class="bt"><i style="width:93.9%"></i></span><span class="bv">31</span></div>
+<div class="bar" data-tip="Ia — 31 sati tjedno"><span class="bl">Ia</span><span class="bt"><i style="width:93.9%"></i></span><span class="bv">31</span></div>
+<div class="bar" data-tip="IId — 31 sati tjedno"><span class="bl">IId</span><span class="bt"><i style="width:93.9%"></i></span><span class="bv">31</span></div>
+<div class="bar" data-tip="IIa — 31 sati tjedno"><span class="bl">IIa</span><span class="bt"><i style="width:93.9%"></i></span><span class="bv">31</span></div>
+<div class="bar" data-tip="Ib — 30 sati tjedno"><span class="bl">Ib</span><span class="bt"><i style="width:90.9%"></i></span><span class="bv">30</span></div>
+<div class="bar" data-tip="Ic — 30 sati tjedno"><span class="bl">Ic</span><span class="bt"><i style="width:90.9%"></i></span><span class="bv">30</span></div>
+<div class="bar" data-tip="IIIe — 30 sati tjedno"><span class="bl">IIIe</span><span class="bt"><i style="width:90.9%"></i></span><span class="bv">30</span></div>
+<div class="bar" data-tip="IVd — 29 sati tjedno"><span class="bl">IVd</span><span class="bt"><i style="width:87.9%"></i></span><span class="bv">29</span></div>
+<div class="bar" data-tip="IIf — 28 sati tjedno"><span class="bl">IIf</span><span class="bt"><i style="width:84.8%"></i></span><span class="bv">28</span></div>
+<div class="bar" data-tip="IIIf — 24 sati tjedno"><span class="bl">IIIf</span><span class="bt"><i style="width:72.7%"></i></span><span class="bv">24</span></div>
+<div class="bar" data-tip="Ij — 24 sati tjedno"><span class="bl">Ij</span><span class="bt"><i style="width:72.7%"></i></span><span class="bv">24</span></div>
+<div class="bar" data-tip="IIi — 22 sati tjedno"><span class="bl">IIi</span><span class="bt"><i style="width:66.7%"></i></span><span class="bv">22</span></div>
+<div class="bar" data-tip="Ii — 22 sati tjedno"><span class="bl">Ii</span><span class="bt"><i style="width:66.7%"></i></span><span class="bv">22</span></div>
+<div class="bar" data-tip="IIh — 21 sati tjedno"><span class="bl">IIh</span><span class="bt"><i style="width:63.6%"></i></span><span class="bv">21</span></div>
+<div class="bar" data-tip="IIg — 20 sati tjedno"><span class="bl">IIg</span><span class="bt"><i style="width:60.6%"></i></span><span class="bv">20</span></div>
+<div class="bar" data-tip="IIIg — 20 sati tjedno"><span class="bl">IIIg</span><span class="bt"><i style="width:60.6%"></i></span><span class="bv">20</span></div>
+</div>
+
+<h2>Tjedno opterećenje po nastavniku</h2>
+<p>63 zapisa, uključujući pet nositelja prakse van škole koji nisu osobe.</p>
+<div class="bars">
+<div class="bar" data-tip="David Galic — 23 sati tjedno"><span class="bl">David Galic</span><span class="bt"><i style="width:100.0%"></i></span><span class="bv">23</span></div>
+<div class="bar" data-tip="Jelena Slišković — 23 sati tjedno"><span class="bl">Jelena Slišković</span><span class="bt"><i style="width:100.0%"></i></span><span class="bv">23</span></div>
+<div class="bar" data-tip="Marko Kraljević — 23 sati tjedno"><span class="bl">Marko Kraljević</span><span class="bt"><i style="width:100.0%"></i></span><span class="bv">23</span></div>
+<div class="bar" data-tip="Ivana Knezović — 22 sati tjedno"><span class="bl">Ivana Knezović</span><span class="bt"><i style="width:95.7%"></i></span><span class="bv">22</span></div>
+<div class="bar" data-tip="Mateo Zadro — 22 sati tjedno"><span class="bl">Mateo Zadro</span><span class="bt"><i style="width:95.7%"></i></span><span class="bv">22</span></div>
+<div class="bar" data-tip="Andrea Knezović — 22 sati tjedno"><span class="bl">Andrea Knezović</span><span class="bt"><i style="width:95.7%"></i></span><span class="bv">22</span></div>
+<div class="bar" data-tip="Darko Bošnjak — 22 sati tjedno"><span class="bl">Darko Bošnjak</span><span class="bt"><i style="width:95.7%"></i></span><span class="bv">22</span></div>
+<div class="bar" data-tip="Ružica Šaravanja — 22 sati tjedno"><span class="bl">Ružica Šaravanja</span><span class="bt"><i style="width:95.7%"></i></span><span class="bv">22</span></div>
+<div class="bar" data-tip="Mario Rozic — 21 sati tjedno"><span class="bl">Mario Rozic</span><span class="bt"><i style="width:91.3%"></i></span><span class="bv">21</span></div>
+<div class="bar" data-tip="Anita Marić — 21 sati tjedno"><span class="bl">Anita Marić</span><span class="bt"><i style="width:91.3%"></i></span><span class="bv">21</span></div>
+<div class="bar" data-tip="Marko Marušić — 21 sati tjedno"><span class="bl">Marko Marušić</span><span class="bt"><i style="width:91.3%"></i></span><span class="bv">21</span></div>
+<div class="bar" data-tip="Diana Brzica Sesar — 21 sati tjedno"><span class="bl">Diana Brzica Sesar</span><span class="bt"><i style="width:91.3%"></i></span><span class="bv">21</span></div>
+<div class="bar" data-tip="Ana Colak — 20 sati tjedno"><span class="bl">Ana Colak</span><span class="bt"><i style="width:87.0%"></i></span><span class="bv">20</span></div>
+<div class="bar" data-tip="Ognjen Karačić — 20 sati tjedno"><span class="bl">Ognjen Karačić</span><span class="bt"><i style="width:87.0%"></i></span><span class="bv">20</span></div>
+<div class="bar" data-tip="Ružica Džajkić — 20 sati tjedno"><span class="bl">Ružica Džajkić</span><span class="bt"><i style="width:87.0%"></i></span><span class="bv">20</span></div>
+<div class="bar" data-tip="Kristina Tadić — 20 sati tjedno"><span class="bl">Kristina Tadić</span><span class="bt"><i style="width:87.0%"></i></span><span class="bv">20</span></div>
+<div class="bar" data-tip="Marija Soldo — 20 sati tjedno"><span class="bl">Marija Soldo</span><span class="bt"><i style="width:87.0%"></i></span><span class="bv">20</span></div>
+<div class="bar" data-tip="Ivana Corluka — 20 sati tjedno"><span class="bl">Ivana Corluka</span><span class="bt"><i style="width:87.0%"></i></span><span class="bv">20</span></div>
+<div class="bar" data-tip="Zdravka Đolo — 20 sati tjedno"><span class="bl">Zdravka Đolo</span><span class="bt"><i style="width:87.0%"></i></span><span class="bv">20</span></div>
+<div class="bar" data-tip="Vinko Zovko — 19 sati tjedno"><span class="bl">Vinko Zovko</span><span class="bt"><i style="width:82.6%"></i></span><span class="bv">19</span></div>
+<div class="bar" data-tip="Anita Kvesić — 19 sati tjedno"><span class="bl">Anita Kvesić</span><span class="bt"><i style="width:82.6%"></i></span><span class="bv">19</span></div>
+<div class="bar" data-tip="Vanja Tica — 19 sati tjedno"><span class="bl">Vanja Tica</span><span class="bt"><i style="width:82.6%"></i></span><span class="bv">19</span></div>
+<div class="bar" data-tip="Ivana Ivanković — 19 sati tjedno"><span class="bl">Ivana Ivanković</span><span class="bt"><i style="width:82.6%"></i></span><span class="bv">19</span></div>
+<div class="bar" data-tip="Iva Cavar — 19 sati tjedno"><span class="bl">Iva Cavar</span><span class="bt"><i style="width:82.6%"></i></span><span class="bv">19</span></div>
+<div class="bar" data-tip="Antonio Camber — 19 sati tjedno"><span class="bl">Antonio Camber</span><span class="bt"><i style="width:82.6%"></i></span><span class="bv">19</span></div>
+<div class="bar" data-tip="Diana Zovko — 19 sati tjedno"><span class="bl">Diana Zovko</span><span class="bt"><i style="width:82.6%"></i></span><span class="bv">19</span></div>
+<div class="bar" data-tip="Danijela Lasić — 19 sati tjedno"><span class="bl">Danijela Lasić</span><span class="bt"><i style="width:82.6%"></i></span><span class="bv">19</span></div>
+<div class="bar" data-tip="Zdravka Galić — 18 sati tjedno"><span class="bl">Zdravka Galić</span><span class="bt"><i style="width:78.3%"></i></span><span class="bv">18</span></div>
+<div class="bar" data-tip="Stjepan Skoko — 17 sati tjedno"><span class="bl">Stjepan Skoko</span><span class="bt"><i style="width:73.9%"></i></span><span class="bv">17</span></div>
+<div class="bar" data-tip="Sanja Slišković — 17 sati tjedno"><span class="bl">Sanja Slišković</span><span class="bt"><i style="width:73.9%"></i></span><span class="bv">17</span></div>
+<div class="bar" data-tip="Marija Ivanković — 17 sati tjedno"><span class="bl">Marija Ivanković</span><span class="bt"><i style="width:73.9%"></i></span><span class="bv">17</span></div>
+<div class="bar" data-tip="Marija Šaravanja — 17 sati tjedno"><span class="bl">Marija Šaravanja</span><span class="bt"><i style="width:73.9%"></i></span><span class="bv">17</span></div>
+<div class="bar" data-tip="Snježana Slišković — 16 sati tjedno"><span class="bl">Snježana Slišković</span><span class="bt"><i style="width:69.6%"></i></span><span class="bv">16</span></div>
+<div class="bar" data-tip="Ivona Boban — 16 sati tjedno"><span class="bl">Ivona Boban</span><span class="bt"><i style="width:69.6%"></i></span><span class="bv">16</span></div>
+<div class="bar" data-tip="Irena Lončar — 15 sati tjedno"><span class="bl">Irena Lončar</span><span class="bt"><i style="width:65.2%"></i></span><span class="bv">15</span></div>
+<div class="bar" data-tip="Antonio Lončar — 15 sati tjedno"><span class="bl">Antonio Lončar</span><span class="bt"><i style="width:65.2%"></i></span><span class="bv">15</span></div>
+<div class="bar" data-tip="Ivan Spajic — 14 sati tjedno"><span class="bl">Ivan Spajic</span><span class="bt"><i style="width:60.9%"></i></span><span class="bv">14</span></div>
+<div class="bar" data-tip="Jozo Cigić — 13 sati tjedno"><span class="bl">Jozo Cigić</span><span class="bt"><i style="width:56.5%"></i></span><span class="bv">13</span></div>
+<div class="bar" data-tip="Luka Rogalo — 13 sati tjedno"><span class="bl">Luka Rogalo</span><span class="bt"><i style="width:56.5%"></i></span><span class="bv">13</span></div>
+<div class="bar" data-tip="Matea Soldo — 12 sati tjedno"><span class="bl">Matea Soldo</span><span class="bt"><i style="width:52.2%"></i></span><span class="bv">12</span></div>
+<div class="bar" data-tip="Danica Glavina — 12 sati tjedno"><span class="bl">Danica Glavina</span><span class="bt"><i style="width:52.2%"></i></span><span class="bv">12</span></div>
+<div class="bar" data-tip="Tamara Zovko — 11 sati tjedno"><span class="bl">Tamara Zovko</span><span class="bt"><i style="width:47.8%"></i></span><span class="bv">11</span></div>
+<div class="bar" data-tip="fra Ivan Crnogorac — 10 sati tjedno"><span class="bl">fra Ivan Crnogorac</span><span class="bt"><i style="width:43.5%"></i></span><span class="bv">10</span></div>
+<div class="bar" data-tip="Andrijana Musa — 10 sati tjedno"><span class="bl">Andrijana Musa</span><span class="bt"><i style="width:43.5%"></i></span><span class="bv">10</span></div>
+<div class="bar" data-tip="Ana Marija Soldo — 10 sati tjedno"><span class="bl">Ana Marija Soldo</span><span class="bt"><i style="width:43.5%"></i></span><span class="bv">10</span></div>
+<div class="bar" data-tip="Mila Culjak — 9 sati tjedno"><span class="bl">Mila Culjak</span><span class="bt"><i style="width:39.1%"></i></span><span class="bv">9</span></div>
+<div class="bar" data-tip="Martina Cavar — 8 sati tjedno"><span class="bl">Martina Cavar</span><span class="bt"><i style="width:34.8%"></i></span><span class="bv">8</span></div>
+<div class="bar" data-tip="Marko Kvesić — 8 sati tjedno"><span class="bl">Marko Kvesić</span><span class="bt"><i style="width:34.8%"></i></span><span class="bv">8</span></div>
+<div class="bar" data-tip="Zvonimir Kožul — 8 sati tjedno"><span class="bl">Zvonimir Kožul</span><span class="bt"><i style="width:34.8%"></i></span><span class="bv">8</span></div>
+<div class="bar" data-tip="Lucija Rozić — 8 sati tjedno"><span class="bl">Lucija Rozić</span><span class="bt"><i style="width:34.8%"></i></span><span class="bv">8</span></div>
+<div class="bar" data-tip="Matea Knezović — 7 sati tjedno"><span class="bl">Matea Knezović</span><span class="bt"><i style="width:30.4%"></i></span><span class="bv">7</span></div>
+<div class="bar" data-tip="Marijofil Cerkez — 6 sati tjedno"><span class="bl">Marijofil Cerkez</span><span class="bt"><i style="width:26.1%"></i></span><span class="bv">6</span></div>
+<div class="bar" data-tip="Kristina Marušić — 6 sati tjedno"><span class="bl">Kristina Marušić</span><span class="bt"><i style="width:26.1%"></i></span><span class="bv">6</span></div>
+<div class="bar" data-tip="Mila Bandić — 5 sati tjedno"><span class="bl">Mila Bandić</span><span class="bt"><i style="width:21.7%"></i></span><span class="bv">5</span></div>
+<div class="bar" data-tip="Iva Soldo — 4 sati tjedno"><span class="bl">Iva Soldo</span><span class="bt"><i style="width:17.4%"></i></span><span class="bv">4</span></div>
+<div class="bar" data-tip="Sanja Vasilj — 3 sati tjedno"><span class="bl">Sanja Vasilj</span><span class="bt"><i style="width:13.0%"></i></span><span class="bv">3</span></div>
+<div class="bar" data-tip="Zdenko Zovko — 2 sati tjedno"><span class="bl">Zdenko Zovko</span><span class="bt"><i style="width:8.7%"></i></span><span class="bv">2</span></div>
+<div class="bar" data-tip="PRAK.NAST.VAN.SK 2g CNC — 2 sati tjedno · nositelj prakse, ne osoba"><span class="bl">PRAK.NAST.VAN.SK 2g CNC</span><span class="bt"><i style="width:8.7%"></i></span><span class="bv">2</span></div>
+<div class="bar" data-tip="PRAK.NAST.VAN.SK 2h CNC — 2 sati tjedno · nositelj prakse, ne osoba"><span class="bl">PRAK.NAST.VAN.SK 2h CNC</span><span class="bt"><i style="width:8.7%"></i></span><span class="bv">2</span></div>
+<div class="bar" data-tip="PRAK.NAST.VAN.SK 4d komerc — 1 sati tjedno · nositelj prakse, ne osoba"><span class="bl">PRAK.NAST.VAN.SK 4d komerc</span><span class="bt"><i style="width:4.3%"></i></span><span class="bv">1</span></div>
+<div class="bar" data-tip="PRAK.NAST.VAN.SK 1j konobar — 1 sati tjedno · nositelj prakse, ne osoba"><span class="bl">PRAK.NAST.VAN.SK 1j konobar</span><span class="bt"><i style="width:4.3%"></i></span><span class="bv">1</span></div>
+<div class="bar" data-tip="Dragana Lovrić — 1 sati tjedno"><span class="bl">Dragana Lovrić</span><span class="bt"><i style="width:4.3%"></i></span><span class="bv">1</span></div>
+<div class="bar" data-tip="PRAK.NAST.VAN.SK 2f komerc — 1 sati tjedno · nositelj prakse, ne osoba"><span class="bl">PRAK.NAST.VAN.SK 2f komerc</span><span class="bt"><i style="width:4.3%"></i></span><span class="bv">1</span></div>
+</div>
+
+<h2>Iskorištenost učionica</h2>
+<p>Koliko je učionica zauzeto u svakom terminu. Ovo je najuže grlo cijelog rasporeda:
+u vršnom terminu ostaje vrlo malo praznih učionica.</p>
+<div class="wrap"><table class="heat"><thead><tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th></tr></thead><tbody>
+<tr><th class="dy">Pon</th>
+<td class="hc s0" data-tip="Pon 1. sat — 18 učionica od 31">18</td>
+<td class="hc s2" data-tip="Pon 2. sat — 26 učionica od 31">26</td>
+<td class="hc s2" data-tip="Pon 3. sat — 27 učionica od 31">27</td>
+<td class="hc s3" data-tip="Pon 4. sat — 29 učionica od 31">29</td>
+<td class="hc s2" data-tip="Pon 5. sat — 27 učionica od 31">27</td>
+<td class="hc s2" data-tip="Pon 6. sat — 26 učionica od 31">26</td>
+<td class="hc s1" data-tip="Pon 7. sat — 22 učionica od 31">22</td>
+</tr>
+<tr><th class="dy">Uto</th>
+<td class="hc s0" data-tip="Uto 1. sat — 18 učionica od 31">18</td>
+<td class="hc s2" data-tip="Uto 2. sat — 25 učionica od 31">25</td>
+<td class="hc s2" data-tip="Uto 3. sat — 25 učionica od 31">25</td>
+<td class="hc s3" data-tip="Uto 4. sat — 28 učionica od 31">28</td>
+<td class="hc s3" data-tip="Uto 5. sat — 29 učionica od 31">29</td>
+<td class="hc s1" data-tip="Uto 6. sat — 23 učionica od 31">23</td>
+<td class="hc s0" data-tip="Uto 7. sat — 18 učionica od 31">18</td>
+</tr>
+<tr><th class="dy">Sri</th>
+<td class="hc s1" data-tip="Sri 1. sat — 23 učionica od 31">23</td>
+<td class="hc s3" data-tip="Sri 2. sat — 29 učionica od 31">29</td>
+<td class="hc s3" data-tip="Sri 3. sat — 31 učionica od 31">31</td>
+<td class="hc s3" data-tip="Sri 4. sat — 29 učionica od 31">29</td>
+<td class="hc s3" data-tip="Sri 5. sat — 31 učionica od 31">31</td>
+<td class="hc s3" data-tip="Sri 6. sat — 29 učionica od 31">29</td>
+<td class="hc s1" data-tip="Sri 7. sat — 23 učionica od 31">23</td>
+</tr>
+<tr><th class="dy">Čet</th>
+<td class="hc s0" data-tip="Čet 1. sat — 19 učionica od 31">19</td>
+<td class="hc s3" data-tip="Čet 2. sat — 28 učionica od 31">28</td>
+<td class="hc s3" data-tip="Čet 3. sat — 29 učionica od 31">29</td>
+<td class="hc s3" data-tip="Čet 4. sat — 29 učionica od 31">29</td>
+<td class="hc s2" data-tip="Čet 5. sat — 26 učionica od 31">26</td>
+<td class="hc s2" data-tip="Čet 6. sat — 26 učionica od 31">26</td>
+<td class="hc s0" data-tip="Čet 7. sat — 18 učionica od 31">18</td>
+</tr>
+<tr><th class="dy">Pet</th>
+<td class="hc s0" data-tip="Pet 1. sat — 20 učionica od 31">20</td>
+<td class="hc s2" data-tip="Pet 2. sat — 27 učionica od 31">27</td>
+<td class="hc s3" data-tip="Pet 3. sat — 29 učionica od 31">29</td>
+<td class="hc s3" data-tip="Pet 4. sat — 28 učionica od 31">28</td>
+<td class="hc s3" data-tip="Pet 5. sat — 29 učionica od 31">29</td>
+<td class="hc s2" data-tip="Pet 6. sat — 27 učionica od 31">27</td>
+<td class="hc s0" data-tip="Pet 7. sat — 19 učionica od 31">19</td>
+</tr>
+</tbody></table></div>
+<div class="scale"><span>manje</span><i class="s0"></i><i class="s1"></i><i class="s2"></i><i class="s3"></i><span>više</span><em>18–31 učionica istovremeno, strop je 31</em></div>
+
+<h2>Što model sadrži, a što ne</h2>
+<div class="wrap"><table><tbody>
+<tr><th>Sadrži</th><td>zabranu sudara nastavnika, razreda i učionica; razmak po danima za
+višesatne predmete; istovremenost podijeljenih grupa; najviše nula rupa dnevno po razredu;
+dodjelu učionica bez sudara</td></tr>
+<tr><th>Ne sadrži</th><td><b>dostupnost nastavnika</b> — nije dekodirana iz izvora, pa netko može
+dobiti sat u terminu kad ne može raditi; <b>zahtjeve predmeta na učionicu</b> — praktikumi i
+radionice nisu razlikovani od običnih učionica; smjene; ograničenja na najviše sati dnevno</td></tr>
+<tr><th>Nije potvrđeno</th><td>kurikulum — tko što kome predaje i koliko sati — škola još nije pregledala</td></tr>
+<tr><th>Otvoreno pitanje</th><td>u datoteci je <b>58</b> imenovanih nastavnika; ručnim brojanjem
+dobiveno je <b>61</b>. Razlika je tri, a točno tri nastavnika u datoteci imaju besmisleno malu
+satnicu (1, 2 i 3 sata tjedno). Moguće je da dio nastave nedostaje već u izvoru — što bi se
+poklapalo s time da aSc raspored nije bio dovršen.</td></tr>
+</tbody></table></div>
+
+<footer>Podaci izvučeni iz aSc TimeTables datoteke škole; raspored izračunat
+<a href="https://lalescu.ro/liviu/fet/">FET-om</a> 7.10.3.
+Grafovi koriste jednu sekvencijalnu skalu provjerenu na razlučivost pri daltonizmu i kontrast
+prema podlozi, u oba moda.</footer>
+</main><div id="tip"></div><script>
+var tip=document.getElementById('tip');
+document.addEventListener('mouseover',function(ev){
+  var t=ev.target.closest('[data-tip]'); if(!t){tip.style.opacity=0;return;}
+  tip.textContent=t.dataset.tip; tip.style.opacity=1;
+  var r=t.getBoundingClientRect();
+  tip.style.left=Math.min(innerWidth-tip.offsetWidth-8,Math.max(8,r.left))+'px';
+  tip.style.top=(r.top>46?r.top-tip.offsetHeight-7:r.bottom+7)+'px';
+});
+document.addEventListener('mouseleave',function(){tip.style.opacity=0},true);
+</script></body></html>

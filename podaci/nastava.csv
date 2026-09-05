@@ -1,0 +1,463 @@
+id,razred,grupa,predmet,nastavnik,sati_tjedno
+0,IIb - tehničari za mehatroniku,cijeli razred,fizika,David Galic,2
+1,IIb - tehničari za mehatroniku,cijeli razred,tehnička mehanika,Zdravka Galić,2
+2,IIIc - ekonomisti,cijeli razred,tjelesna  i z k,Stjepan Skoko,2
+3,IVc - ekonomisti,cijeli razred,tjelesna  i z k,Stjepan Skoko,2
+4,IIb - tehničari za mehatroniku,cijeli razred,Vjeronauk,Mario Rozic,1
+5,IIe - ekonomisti,cijeli razred,Vjeronauk,Mario Rozic,1
+6,IVa - tehničari za mehatroniku,cijeli razred,Vjeronauk,Mario Rozic,1
+7,IVc - ekonomisti,cijeli razred,Vjeronauk,Mario Rozic,1
+8,Ib - tehničari za mehatroniku,cijeli razred,Vjeronauk,fra Ivan Crnogorac,1
+9,Ie - ekonomisti,cijeli razred,Vjeronauk,fra Ivan Crnogorac,1
+10,IIIc - ekonomisti,cijeli razred,Vjeronauk,Mario Rozic,1
+11,IIId - ekonomisti,cijeli razred,Vjeronauk,Mario Rozic,1
+12,Ib - tehničari za mehatroniku,cijeli razred,tehnički materijali,Jozo Cigić,2
+13,IIIa - tehničari za mehatroniku,cijeli razred,termodinamika,Vinko Zovko,2
+14,IVa - tehničari za mehatroniku,cijeli razred,kontrola mjerenja,Vinko Zovko,2
+15,Ib - tehničari za mehatroniku,cijeli razred,tehnička mehanika,Zdravka Galić,2
+16,IIb - tehničari za mehatroniku,cijeli razred,elementi strojeva,Zdravka Galić,2
+17,IIIa - tehničari za mehatroniku,cijeli razred,mehatroničke konstrukcije,Jelena Slišković,2
+18,IIIa - tehničari za mehatroniku,cijeli razred,matematika,Ana Colak,3
+19,IIe - ekonomisti,cijeli razred,matematika,Anita Marić,3
+20,Ib - tehničari za mehatroniku,cijeli razred,fizika,David Galic,2
+21,Ie - ekonomisti,cijeli razred,Kemija,Snježana Slišković,2
+22,Ie - ekonomisti,cijeli razred,biologija,Ivana Knezović,2
+23,IIb - tehničari za mehatroniku,2. grupa,radioničke vježbe,Marijofil Cerkez,1
+24,IVa - tehničari za mehatroniku,cijeli razred,mehanika fluida,Jelena Slišković,1
+25,IVa - tehničari za mehatroniku,cijeli razred,mikro i nano mehatronika,Jelena Slišković,1
+26,Ia - elektrotehničari,cijeli razred,fizika,David Galic,3
+27,Id - farmaceutski tehničari,cijeli razred,Vjeronauk,fra Ivan Crnogorac,1
+28,Id - farmaceutski tehničari,cijeli razred,anatomija  i fiziologija,Matea Knezović,1
+29,Id - farmaceutski tehničari,cijeli razred,fizika,David Galic,2
+30,Id - farmaceutski tehničari,cijeli razred,latinski jezik,Iva Soldo,2
+31,Id - farmaceutski tehničari,cijeli razred,biologija,Ivana Knezović,2
+32,Id - farmaceutski tehničari,cijeli razred,osnove zdravstvene struke,Matea Knezović,2
+33,Id - farmaceutski tehničari,cijeli razred,Kemija,Snježana Slišković,3
+34,IIIa - tehničari za mehatroniku,2. grupa,radioničke vježbe,Marijofil Cerkez,1
+35,IIIc - ekonomisti,2. grupa,izborna nastava organizacijsko ponašanje,Anita Kvesić,2
+36,IVa - tehničari za mehatroniku,2. grupa,radioničke vježbe,Matea Soldo,1
+37,IIb - tehničari za mehatroniku,cijeli razred,hrvatski jezik,Ognjen Karačić,3
+38,IVd - komercijalisti,cijeli razred,strani jezik izborni,Vanja Tica,2
+39,IIb - tehničari za mehatroniku,cijeli razred,strani jezik,Ivana Ivanković,2
+40,IId - ekonomisti,cijeli razred,Vjeronauk,Mario Rozic,1
+41,IIi - frizeri,cijeli razred,Vjeronauk,Mario Rozic,1
+42,IIIf - elektroinstalateri,cijeli razred,Vjeronauk,Mario Rozic,1
+43,IVd - komercijalisti,cijeli razred,Vjeronauk,Mario Rozic,1
+44,If - ekonomisti,cijeli razred,geografija,Mateo Zadro,2
+45,Ie - ekonomisti,cijeli razred,geografija,Mateo Zadro,2
+46,IIIc - ekonomisti,cijeli razred,Tehnologija s ekologijom,Ivana Knezović,2
+47,IVa - tehničari za mehatroniku,cijeli razred,tjelesna  i z k,Marko Kraljević,2
+48,IIb - tehničari za mehatroniku,cijeli razred,tjelesna  i z k,Stjepan Skoko,2
+49,IIIa - tehničari za mehatroniku,cijeli razred,računalstvo,Ružica Džajkić,2
+50,IIe - ekonomisti,cijeli razred,informatika,Sanja Slišković,2
+51,IId - ekonomisti,cijeli razred,informatika,Sanja Slišković,2
+52,IIIb - računalni tehničari za strojarstvo,cijeli razred,fizika,David Galic,2
+53,IIIc - ekonomisti,cijeli razred,matematika,Anita Marić,3
+54,IId - ekonomisti,cijeli razred,matematika,Marija Ivanković,3
+55,IIIa - tehničari za mehatroniku,cijeli razred,upravljanje i regulacija,Andrea Knezović,3
+56,IIIb - računalni tehničari za strojarstvo,cijeli razred,upravljanje i regulacija,Andrea Knezović,2
+57,IIIb - računalni tehničari za strojarstvo,cijeli razred,alati i naprave,Jelena Slišković,2
+58,IIIb - računalni tehničari za strojarstvo,cijeli razred,termodinamika,Vinko Zovko,2
+59,IIIa - tehničari za mehatroniku,cijeli razred,senzorika,Martina Cavar,2
+60,IVa - tehničari za mehatroniku,cijeli razred,robotika,Martina Cavar,2
+61,IIIb - računalni tehničari za strojarstvo,cijeli razred,elektrotehnika,Ivona Boban,3
+62,IVd - komercijalisti,cijeli razred,praktična nastava,PRAK.NAST.VAN.SK 4d komerc,1
+63,IVc - ekonomisti,cijeli razred,knjigovodstvo s bilanciranjem,Mila Culjak,2
+64,IVc - ekonomisti,cijeli razred,knjigovodstvo s bilanciranjem,Mila Culjak,1
+65,IVc - ekonomisti,cijeli razred,marketing,Irena Lončar,2
+66,IIe - ekonomisti,cijeli razred,novčarstvo,Iva Cavar,2
+67,IId - ekonomisti,cijeli razred,novčarstvo,Iva Cavar,2
+68,IVc - ekonomisti,cijeli razred,gospodarstvo,Anita Kvesić,2
+69,IIIa - tehničari za mehatroniku,cijeli razred,složene mehatroničke konstrukcije,Andrea Knezović,2
+70,Ib - tehničari za mehatroniku,cijeli razred,osnove elektrotehnike,Antonio Camber,4
+71,Ib - tehničari za mehatroniku,cijeli razred,hrvatski jezik,Kristina Tadić,3
+72,Ib - tehničari za mehatroniku,cijeli razred,matematika,Marija Soldo,3
+73,Ib - tehničari za mehatroniku,cijeli razred,tehničko crtanje,Vinko Zovko,1
+74,Ib - tehničari za mehatroniku,cijeli razred,geografija,Marko Marušić,2
+75,Ib - tehničari za mehatroniku,cijeli razred,strani jezik,Ivana Corluka,2
+76,Ib - tehničari za mehatroniku,cijeli razred,tjelesna  i z k,Marko Kraljević,2
+77,Ib - tehničari za mehatroniku,cijeli razred,povijest,Darko Bošnjak,2
+78,Ib - tehničari za mehatroniku,cijeli razred,računalstvo,Sanja Slišković,2
+79,Ib - tehničari za mehatroniku,cijeli razred,sat razrednika,Martina Cavar,1
+80,Ic - tehničari za mehatroniku,cijeli razred,Vjeronauk,fra Ivan Crnogorac,1
+81,Ic - tehničari za mehatroniku,cijeli razred,tehničko crtanje,Vinko Zovko,1
+82,Ic - tehničari za mehatroniku,cijeli razred,praktična nastava,Martina Cavar,1
+83,Ic - tehničari za mehatroniku,cijeli razred,računalstvo,Sanja Slišković,2
+84,Ic - tehničari za mehatroniku,cijeli razred,tehnička mehanika,Zdravka Galić,2
+85,Ic - tehničari za mehatroniku,cijeli razred,povijest,Darko Bošnjak,2
+86,Ic - tehničari za mehatroniku,cijeli razred,fizika,David Galic,2
+87,Ic - tehničari za mehatroniku,cijeli razred,tehnički materijali,Jozo Cigić,2
+88,Ic - tehničari za mehatroniku,cijeli razred,strani jezik,Ivana Corluka,2
+89,Ic - tehničari za mehatroniku,cijeli razred,geografija,Marko Marušić,2
+90,Ic - tehničari za mehatroniku,cijeli razred,matematika,Marija Soldo,3
+91,Ic - tehničari za mehatroniku,cijeli razred,sat razrednika,Stjepan Skoko,1
+92,Ic - tehničari za mehatroniku,cijeli razred,osnove elektrotehnike,Matea Soldo,4
+93,Ic - tehničari za mehatroniku,cijeli razred,hrvatski jezik,Marija Šaravanja,3
+94,Ic - tehničari za mehatroniku,cijeli razred,tjelesna  i z k,Stjepan Skoko,2
+95,Id - farmaceutski tehničari,cijeli razred,hrvatski jezik,Kristina Tadić,4
+96,Id - farmaceutski tehničari,cijeli razred,matematika,Ana Colak,3
+97,Id - farmaceutski tehničari,cijeli razred,strani jezik,Andrijana Musa,2
+98,Id - farmaceutski tehničari,cijeli razred,geografija,Mateo Zadro,2
+99,Id - farmaceutski tehničari,cijeli razred,povijest,Darko Bošnjak,2
+100,Id - farmaceutski tehničari,cijeli razred,tjelesna  i z k,Marko Kvesić,2
+101,Id - farmaceutski tehničari,cijeli razred,računalstvo,Ružica Džajkić,2
+102,Id - farmaceutski tehničari,cijeli razred,sat razrednika,Andrijana Musa,1
+103,Ie - ekonomisti,cijeli razred,knjigovodstvo s bilanciranjem,Anita Kvesić,1
+104,Ie - ekonomisti,cijeli razred,knjigovodstvo s bilanciranjem,Anita Kvesić,1
+105,Ie - ekonomisti,cijeli razred,hrvatski jezik,Diana Zovko,3
+106,Ie - ekonomisti,cijeli razred,strani jezik,Ivana Ivanković,3
+107,Ie - ekonomisti,cijeli razred,matematika,Ana Marija Soldo,3
+108,Ie - ekonomisti,2. grupa,izborna nastav.obiteljski posao,Iva Cavar,2
+109,Ie - ekonomisti,1. grupa,izborna nas. globalno poslov okruženje,Zdravka Đolo,2
+110,Ie - ekonomisti,cijeli razred,tjelesna  i z k,Marko Kraljević,2
+111,Ie - ekonomisti,cijeli razred,poslovne komunikacije,Irena Lončar,2
+112,Ie - ekonomisti,cijeli razred,poduzetništvo,Mila Culjak,2
+113,Ie - ekonomisti,cijeli razred,povijest,Darko Bošnjak,2
+114,Ie - ekonomisti,cijeli razred,informatika,Ružica Džajkić,2
+115,Ie - ekonomisti,cijeli razred,sat razrednika,Darko Bošnjak,1
+116,If - ekonomisti,cijeli razred,Vjeronauk,fra Ivan Crnogorac,1
+117,If - ekonomisti,cijeli razred,knjigovodstvo s bilanciranjem,Anita Kvesić,1
+118,If - ekonomisti,cijeli razred,knjigovodstvo s bilanciranjem,Anita Kvesić,1
+119,If - ekonomisti,cijeli razred,informatika,Ružica Džajkić,2
+120,If - ekonomisti,cijeli razred,povijest,Darko Bošnjak,2
+121,If - ekonomisti,cijeli razred,biologija,Ivana Knezović,2
+122,If - ekonomisti,2. grupa,izborna nastav.obiteljski posao,Iva Cavar,2
+123,If - ekonomisti,cijeli razred,poduzetništvo,Mila Culjak,2
+124,If - ekonomisti,cijeli razred,Kemija,Snježana Slišković,2
+125,If - ekonomisti,cijeli razred,poslovne komunikacije,Irena Lončar,2
+126,If - ekonomisti,1. grupa,izborna nas. globalno poslov okruženje,Zdravka Đolo,2
+127,If - ekonomisti,cijeli razred,matematika,Anita Marić,3
+128,If - ekonomisti,cijeli razred,hrvatski jezik,Marija Šaravanja,3
+129,If - ekonomisti,cijeli razred,strani jezik,Ivana Ivanković,3
+130,If - ekonomisti,cijeli razred,tjelesna  i z k,Marko Kvesić,2
+131,If - ekonomisti,cijeli razred,sat razrednika,Irena Lončar,1
+132,Ig - tehničari za logistiku i špediciju,cijeli razred,Vjeronauk,fra Ivan Crnogorac,1
+133,Ih - tehničari za logistiku i špediciju,cijeli razred,Vjeronauk,fra Ivan Crnogorac,1
+134,Ii - automehaničari,cijeli razred,Vjeronauk,fra Ivan Crnogorac,1
+135,Ij - konobari,cijeli razred,Vjeronauk,fra Ivan Crnogorac,1
+136,Ig - tehničari za logistiku i špediciju,cijeli razred,biologija,Kristina Marušić,1
+137,Ih - tehničari za logistiku i špediciju,cijeli razred,biologija,Kristina Marušić,1
+138,Ig - tehničari za logistiku i špediciju,cijeli razred,povijest,Darko Bošnjak,2
+139,Ig - tehničari za logistiku i špediciju,cijeli razred,geografija,Mateo Zadro,2
+140,Ih - tehničari za logistiku i špediciju,cijeli razred,povijest,Darko Bošnjak,2
+141,Ih - tehničari za logistiku i špediciju,cijeli razred,geografija,Mateo Zadro,2
+142,Ig - tehničari za logistiku i špediciju,cijeli razred,računalstvo,Ružica Džajkić,2
+143,Ih - tehničari za logistiku i špediciju,cijeli razred,računalstvo,Ružica Džajkić,2
+144,Ig - tehničari za logistiku i špediciju,cijeli razred,fizika,David Galic,2
+145,Ih - tehničari za logistiku i špediciju,cijeli razred,fizika,David Galic,2
+146,Ig - tehničari za logistiku i špediciju,cijeli razred,matematika,Anita Marić,3
+147,Ig - tehničari za logistiku i špediciju,cijeli razred,hrvatski jezik,Diana Brzica Sesar,3
+148,Ig - tehničari za logistiku i špediciju,cijeli razred,strani jezik,Luka Rogalo,3
+149,Ih - tehničari za logistiku i špediciju,cijeli razred,strani jezik,Luka Rogalo,3
+150,Ig - tehničari za logistiku i špediciju,cijeli razred,prometno pravo,Antonio Lončar,2
+151,Ig - tehničari za logistiku i špediciju,cijeli razred,Osnove prijevoza i prijenosa,Antonio Lončar,2
+152,Ih - tehničari za logistiku i špediciju,cijeli razred,Osnove prijevoza i prijenosa,Antonio Lončar,2
+153,Ih - tehničari za logistiku i špediciju,cijeli razred,prometno pravo,Antonio Lončar,2
+154,Ig - tehničari za logistiku i špediciju,cijeli razred,Poznavanje robe,Ružica Šaravanja,2
+155,Ih - tehničari za logistiku i špediciju,cijeli razred,Poznavanje robe,Ružica Šaravanja,2
+156,Ig - tehničari za logistiku i špediciju,cijeli razred,cestovna vozila,Andrea Knezović,2
+157,Ih - tehničari za logistiku i špediciju,cijeli razred,cestovna vozila,Andrea Knezović,2
+158,Ig - tehničari za logistiku i špediciju,cijeli razred,strani jezik,Vanja Tica,2
+159,Ih - tehničari za logistiku i špediciju,cijeli razred,strani jezik,Vanja Tica,2
+160,Ig - tehničari za logistiku i špediciju,cijeli razred,tjelesna  i z k,Marko Kraljević,2
+161,Ih - tehničari za logistiku i špediciju,cijeli razred,tjelesna  i z k,Marko Kraljević,2
+162,Ih - tehničari za logistiku i špediciju,cijeli razred,matematika,Marija Soldo,3
+163,Ih - tehničari za logistiku i špediciju,cijeli razred,hrvatski jezik,Ognjen Karačić,3
+164,Ih - tehničari za logistiku i špediciju,cijeli razred,sat razrednika,Marija Soldo,1
+165,Ig - tehničari za logistiku i špediciju,cijeli razred,sat razrednika,David Galic,1
+166,Ii - automehaničari,cijeli razred,tjelesna  i z k,Marko Kvesić,2
+167,Ij - konobari,cijeli razred,tjelesna  i z k,Ivan Spajic,2
+168,Ii - automehaničari,cijeli razred,povijest,Mateo Zadro,2
+169,Ij - konobari,cijeli razred,povijest,Mateo Zadro,2
+170,Ii - automehaničari,cijeli razred,matematika,Marija Soldo,2
+171,Ij - konobari,cijeli razred,matematika,Ana Colak,2
+172,Ii - automehaničari,cijeli razred,strani jezik,Ivana Corluka,2
+173,Ij - konobari,cijeli razred,strani jezik,Vanja Tica,3
+174,Ij - konobari,cijeli razred,strani jezik,Vanja Tica,2
+175,Ij - konobari,cijeli razred,hrvatski jezik,Diana Zovko,3
+176,Ii - automehaničari,cijeli razred,hrvatski jezik,Diana Brzica Sesar,3
+177,Ii - automehaničari,cijeli razred,praktična nastava,Zvonimir Kožul,2
+178,Ii - automehaničari,cijeli razred,tehnički materijali,Zdravka Galić,2
+179,Ii - automehaničari,cijeli razred,tehničko crtanje,Vinko Zovko,1
+180,Ii - automehaničari,cijeli razred,tehnička mehanika,Zdravka Galić,2
+181,Ii - automehaničari,cijeli razred,tehnologija obrade i montaže,Jelena Slišković,2
+182,Ii - automehaničari,cijeli razred,sat razrednika,Vinko Zovko,1
+183,Ij - konobari,cijeli razred,praktična nastava,PRAK.NAST.VAN.SK 1j konobar,1
+184,Ij - konobari,cijeli razred,ugostiteljsko posluživanje,Zdenko Zovko,1
+185,Ij - konobari,cijeli razred,gospodarsko poslovanje,Mila Culjak,2
+186,Ij - konobari,cijeli razred,poznavanje robe i prehrane,Ivana Knezović,2
+187,Ij - konobari,cijeli razred,biologija s higijenom i ekologijom,Ivana Knezović,2
+188,Ij - konobari,cijeli razred,sat razrednika,Ivana Knezović,1
+189,IIa - elektrotehničari,cijeli razred,fizika,David Galic,3
+190,Ib - tehničari za mehatroniku,cijeli razred,praktična nastava,Martina Cavar,1
+191,IIb - tehničari za mehatroniku,1. grupa,radioničke vježbe,Matea Soldo,1
+192,IIb - tehničari za mehatroniku,cijeli razred,tehničko crtanje,Vinko Zovko,1
+193,IIb - tehničari za mehatroniku,cijeli razred,matematika,Ana Marija Soldo,3
+194,IIb - tehničari za mehatroniku,cijeli razred,elektronički sklopovi,Lucija Rozić,3
+195,IIb - tehničari za mehatroniku,cijeli razred,geografija,Darko Bošnjak,1
+196,IIb - tehničari za mehatroniku,cijeli razred,sat razrednika,Ana Marija Soldo,1
+197,IIb - tehničari za mehatroniku,cijeli razred,povijest,Marko Marušić,2
+198,IIb - tehničari za mehatroniku,cijeli razred,električni strojevi,Antonio Camber,2
+199,IIb - tehničari za mehatroniku,cijeli razred,električne instalacije,Antonio Camber,2
+200,IIb - tehničari za mehatroniku,cijeli razred,računalstvo,Ružica Džajkić,2
+201,IIc - farmaceutski tehničari,cijeli razred,biologija,Ivana Knezović,2
+202,IIc - farmaceutski tehničari,cijeli razred,latinski jezik,Iva Soldo,2
+203,IIc - farmaceutski tehničari,cijeli razred,fizika,David Galic,2
+204,Id - farmaceutski tehničari,cijeli razred,uvod u labaratorijski rad,Snježana Slišković,1
+205,IIc - farmaceutski tehničari,cijeli razred,analitička kemija,Snježana Slišković,1
+206,IIc - farmaceutski tehničari,cijeli razred,analitička kemija,Snježana Slišković,2
+207,IIc - farmaceutski tehničari,cijeli razred,hrvatski jezik,Ognjen Karačić,4
+208,IIc - farmaceutski tehničari,cijeli razred,sat razrednika,Ognjen Karačić,1
+209,IIc - farmaceutski tehničari,cijeli razred,matematika,Ana Marija Soldo,3
+210,IIc - farmaceutski tehničari,cijeli razred,organska kemija,Ivana Knezović,3
+211,IIc - farmaceutski tehničari,cijeli razred,anatomija  i fiziologija,Matea Knezović,2
+212,IIc - farmaceutski tehničari,cijeli razred,medicinska mikrobiologija,Matea Knezović,2
+213,IIc - farmaceutski tehničari,cijeli razred,tjelesna  i z k,Stjepan Skoko,2
+214,IIc - farmaceutski tehničari,cijeli razred,strani jezik,Ivana Ivanković,2
+215,IIc - farmaceutski tehničari,cijeli razred,povijest,Marko Marušić,2
+216,IId - ekonomisti,cijeli razred,sat razrednika,Danijela Lasić,1
+217,IIe - ekonomisti,cijeli razred,sat razrednika,Iva Cavar,1
+218,IId - ekonomisti,cijeli razred,knjigovodstvo s bilanciranjem,Danijela Lasić,1
+219,IId - ekonomisti,cijeli razred,knjigovodstvo s bilanciranjem,Danijela Lasić,2
+220,IIe - ekonomisti,cijeli razred,knjigovodstvo s bilanciranjem,Danijela Lasić,1
+221,IIe - ekonomisti,cijeli razred,knjigovodstvo s bilanciranjem,Danijela Lasić,2
+222,IId - ekonomisti,cijeli razred,strani jezik,Andrijana Musa,3
+223,IId - ekonomisti,cijeli razred,hrvatski jezik,Ognjen Karačić,3
+224,IIe - ekonomisti,cijeli razred,strani jezik,Ivana Corluka,3
+225,IIe - ekonomisti,cijeli razred,hrvatski jezik,Kristina Tadić,3
+226,IIe - ekonomisti,cijeli razred,energetika,Andrea Knezović,1
+227,IId - ekonomisti,cijeli razred,energetika,Andrea Knezović,1
+228,IId - ekonomisti,cijeli razred,izborna nasta.osnove turizma,Zdravka Đolo,2
+229,IIe - ekonomisti,cijeli razred,izborna nasta.osnove turizma,Zdravka Đolo,2
+230,IId - ekonomisti,cijeli razred,gospodarstvo,Anita Kvesić,2
+231,IId - ekonomisti,cijeli razred,poduzetništvo,Iva Cavar,2
+232,IId - ekonomisti,cijeli razred,geografija,Mateo Zadro,2
+233,IId - ekonomisti,cijeli razred,povijest,Marko Marušić,2
+234,IId - ekonomisti,cijeli razred,tjelesna  i z k,Marko Kraljević,2
+235,IIe - ekonomisti,cijeli razred,geografija,Mateo Zadro,2
+236,IIe - ekonomisti,cijeli razred,povijest,Marko Marušić,2
+237,IIe - ekonomisti,cijeli razred,gospodarstvo,Anita Kvesić,2
+238,IIe - ekonomisti,cijeli razred,poduzetništvo,Iva Cavar,2
+239,IIe - ekonomisti,cijeli razred,tjelesna  i z k,Ivan Spajic,2
+240,IIi - frizeri,cijeli razred,tehnologija frizerstva,Danica Glavina,2
+241,IIi - frizeri,cijeli razred,tehnološke vježbe,Danica Glavina,2
+242,IIi - frizeri,cijeli razred,hrvatski jezik,Sanja Vasilj,3
+243,IIi - frizeri,cijeli razred,strani jezik,Luka Rogalo,2
+244,IIi - frizeri,cijeli razred,matematika,Marija Ivanković,2
+245,IIi - frizeri,cijeli razred,tjelesna  i z k,Ivan Spajic,2
+246,IIi - frizeri,cijeli razred,"politika i građansko društvo, gospodarstvo",Ružica Šaravanja,2
+247,IIi - frizeri,cijeli razred,Poznavanje materijala,Kristina Marušić,1
+248,IIi - frizeri,cijeli razred,Psihologija komunikacije,Dragana Lovrić,1
+249,IIi - frizeri,cijeli razred,zdravstveni odgoj,Kristina Marušić,1
+250,IIi - frizeri,cijeli razred,sat razrednika,Danica Glavina,1
+251,IIiO,cijeli razred,PRAKSA OBILAZK,Mila Bandić,2
+252,IIi - frizeri,cijeli razred,praktična nastava,Danica Glavina,2
+253,IIf - komercijalisti,cijeli razred,matematika,Anita Marić,3
+254,IIf - komercijalisti,cijeli razred,informatika,Sanja Slišković,2
+255,IIf - komercijalisti,cijeli razred,hrvatski jezik,Diana Brzica Sesar,3
+256,IIf - komercijalisti,cijeli razred,strani jezik,Vanja Tica,2
+257,IIf - komercijalisti,cijeli razred,strani jezik,Vanja Tica,3
+258,IIf - komercijalisti,cijeli razred,Poznavanje robe,Snježana Slišković,3
+259,IIf - komercijalisti,cijeli razred,trgovinsko poslovanje,Irena Lončar,3
+260,IIfO,cijeli razred,PRAKSA OBILAZK,Irena Lončar,1
+261,IIf - komercijalisti,cijeli razred,praktična nastava,PRAK.NAST.VAN.SK 2f komerc,1
+262,IIf - komercijalisti,cijeli razred,povijest,Marko Marušić,2
+263,Ia - elektrotehničari,cijeli razred,povijest,Darko Bošnjak,2
+264,IIa - elektrotehničari,cijeli razred,geografija,Darko Bošnjak,1
+265,IIc - farmaceutski tehničari,cijeli razred,geografija,Darko Bošnjak,1
+266,Ia - elektrotehničari,cijeli razred,geografija,Marko Marušić,2
+267,IIa - elektrotehničari,cijeli razred,povijest,Marko Marušić,2
+268,Ia - elektrotehničari,cijeli razred,radioničke vježbe,Marijofil Cerkez,1
+269,Ia - elektrotehničari,cijeli razred,osnove elektrotehnike,Lucija Rozić,4
+270,Ia - elektrotehničari,cijeli razred,matematika,Marija Soldo,4
+271,Ia - elektrotehničari,cijeli razred,hrvatski jezik,Marija Šaravanja,3
+272,Ia - elektrotehničari,cijeli razred,sat razrednika,Marko Kraljević,1
+273,Ia - elektrotehničari,cijeli razred,tehničko crtanje,Vinko Zovko,1
+274,Ia - elektrotehničari,cijeli razred,strani jezik,Ivana Ivanković,2
+275,Ia - elektrotehničari,cijeli razred,računalstvo,Sanja Slišković,2
+276,Ia - elektrotehničari,cijeli razred,Kemija,Snježana Slišković,2
+277,Ia - elektrotehničari,cijeli razred,tjelesna  i z k,Marko Kraljević,2
+278,Ia - elektrotehničari,cijeli razred,Vjeronauk,fra Ivan Crnogorac,1
+279,Ia - elektrotehničari,cijeli razred,biologija,Kristina Marušić,1
+280,IIa - elektrotehničari,1. grupa,radioničke vježbe,Ivona Boban,1
+281,IIa - elektrotehničari,2. grupa,radioničke vježbe,Lucija Rozić,1
+282,IIa - elektrotehničari,cijeli razred,matematika,Ana Colak,4
+283,IIa - elektrotehničari,cijeli razred,osnove elektrotehnike,Ivona Boban,3
+284,IIa - elektrotehničari,cijeli razred,hrvatski jezik,Kristina Tadić,3
+285,IIa - elektrotehničari,cijeli razred,mjerenja u elektrotehnici,Ivona Boban,3
+286,IIa - elektrotehničari,cijeli razred,Vjeronauk,Mario Rozic,1
+287,IIa - elektrotehničari,cijeli razred,elektrotehnički materijali i komponente,Matea Soldo,2
+288,IIa - elektrotehničari,cijeli razred,strani jezik,Andrijana Musa,2
+289,IIa - elektrotehničari,cijeli razred,računalstvo,Ružica Džajkić,2
+290,IIa - elektrotehničari,cijeli razred,tjelesna  i z k,Stjepan Skoko,2
+291,IIf - komercijalisti,cijeli razred,geografija,Darko Bošnjak,2
+292,IIf - komercijalisti,cijeli razred,Vjeronauk,Mario Rozic,1
+293,IIf - komercijalisti,cijeli razred,sat razrednika,Mario Rozic,1
+294,IIf - komercijalisti,cijeli razred,tjelesna  i z k,Marko Kraljević,2
+295,IIg - CNC operateri,cijeli razred,matematika,Marija Ivanković,2
+296,IIh - CNC operateri,cijeli razred,matematika,Marija Ivanković,2
+297,IIg - CNC operateri,cijeli razred,hrvatski jezik,Diana Brzica Sesar,3
+298,IIh - CNC operateri,cijeli razred,hrvatski jezik,Diana Brzica Sesar,3
+299,IIg - CNC operateri,cijeli razred,strani jezik,Andrijana Musa,2
+300,IIg - CNC operateri,cijeli razred,"politika i građansko društvo, gospodarstvo",Ružica Šaravanja,2
+301,IIh - CNC operateri,cijeli razred,"politika i građansko društvo, gospodarstvo",Ružica Šaravanja,2
+302,IIg - CNC operateri,cijeli razred,Vjeronauk,Mario Rozic,1
+303,IIh - CNC operateri,cijeli razred,Vjeronauk,Mario Rozic,1
+304,IIg - CNC operateri,cijeli razred,tjelesna  i z k,Ivan Spajic,2
+305,IIh - CNC operateri,cijeli razred,tjelesna  i z k,Ivan Spajic,2
+306,IIg - CNC operateri,cijeli razred,tehnička mehanika,Jozo Cigić,1
+307,IIg - CNC operateri,cijeli razred,tehnička mehanika izborni,Jozo Cigić,1
+308,IIg - CNC operateri,cijeli razred,praktična nastava,PRAK.NAST.VAN.SK 2g CNC,2
+309,IIg - CNC operateri,cijeli razred,CAD-CAM tehnolgije,Jelena Slišković,2
+310,IIg - CNC operateri,cijeli razred,sat razrednika,Jozo Cigić,1
+311,IIh - CNC operateri,cijeli razred,praktična nastava,PRAK.NAST.VAN.SK 2h CNC,2
+312,IIh - CNC operateri,cijeli razred,CAD-CAM tehnolgije,Jelena Slišković,2
+313,IIh - CNC operateri,cijeli razred,tehnička mehanika izborni,Jozo Cigić,1
+314,IIh - CNC operateri,cijeli razred,tehnička mehanika,Jozo Cigić,1
+315,IIh - CNC operateri,cijeli razred,sat razrednika,Jelena Slišković,1
+316,IIh - CNC operateri,cijeli razred,strani jezik,Vanja Tica,2
+317,IIIa - tehničari za mehatroniku,1. grupa,radioničke vježbe,Ivona Boban,1
+318,IIIa - tehničari za mehatroniku,cijeli razred,Vjeronauk,Mario Rozic,1
+319,IIc - farmaceutski tehničari,cijeli razred,Vjeronauk,Mario Rozic,1
+320,IIIb - računalni tehničari za strojarstvo,cijeli razred,Vjeronauk,Mario Rozic,1
+321,IIIe - tehničari cestovnog prometa,cijeli razred,Vjeronauk,Mario Rozic,1
+322,IIIg - frizeri,cijeli razred,Vjeronauk,Mario Rozic,1
+323,IVb - računalni tehničari za strojarstvo,cijeli razred,Vjeronauk,Mario Rozic,1
+324,IIIa - tehničari za mehatroniku,cijeli razred,sat razrednika,Ivana Ivanković,1
+325,IIIa - tehničari za mehatroniku,cijeli razred,hrvatski jezik,Ognjen Karačić,3
+326,IIIa - tehničari za mehatroniku,cijeli razred,digitalna elektronika,Antonio Camber,2
+327,IIIa - tehničari za mehatroniku,cijeli razred,Mikroračunala,Matea Soldo,2
+328,IIIa - tehničari za mehatroniku,cijeli razred,strani jezik,Ivana Ivanković,2
+329,IIIa - tehničari za mehatroniku,cijeli razred,tjelesna  i z k,Stjepan Skoko,2
+330,IIIb - računalni tehničari za strojarstvo,cijeli razred,sat razrednika,Diana Zovko,1
+331,IIIb - računalni tehničari za strojarstvo,cijeli razred,matematika,Marija Soldo,4
+332,IIIb - računalni tehničari za strojarstvo,cijeli razred,hrvatski jezik,Diana Zovko,3
+333,IIIb - računalni tehničari za strojarstvo,cijeli razred,rač.upr.num.strojevi,Vinko Zovko,1
+334,IIIb - računalni tehničari za strojarstvo,cijeli razred,tehnička mehanika,Zdravka Galić,2
+335,IIIb - računalni tehničari za strojarstvo,cijeli razred,strojarske konstrukcije,Jelena Slišković,2
+336,IIIb - računalni tehničari za strojarstvo,cijeli razred,hidraulika i pneumatika,Jelena Slišković,2
+337,IIIb - računalni tehničari za strojarstvo,cijeli razred,strani jezik,Ivana Ivanković,2
+338,IIIb - računalni tehničari za strojarstvo,cijeli razred,tjelesna  i z k,Marko Kraljević,2
+339,IIIc - ekonomisti,cijeli razred,sat razrednika,Sanja Slišković,1
+340,IIId - ekonomisti,cijeli razred,sat razrednika,Ivana Corluka,1
+341,IIIc - ekonomisti,cijeli razred,knjigovodstvo s bilanciranjem,Iva Cavar,1
+342,IIIc - ekonomisti,cijeli razred,knjigovodstvo s bilanciranjem,Iva Cavar,2
+343,IIId - ekonomisti,cijeli razred,knjigovodstvo s bilanciranjem,Iva Cavar,2
+344,IIId - ekonomisti,cijeli razred,knjigovodstvo s bilanciranjem,Iva Cavar,1
+345,IIIc - ekonomisti,cijeli razred,dioničarsko gospodarstvo,Danijela Lasić,3
+346,IIIc - ekonomisti,cijeli razred,hrvatski jezik,Ognjen Karačić,3
+347,IIIc - ekonomisti,cijeli razred,strani jezik,Luka Rogalo,3
+348,IIId - ekonomisti,cijeli razred,hrvatski jezik,Diana Brzica Sesar,3
+349,IIId - ekonomisti,cijeli razred,strani jezik,Ivana Corluka,3
+350,IIId - ekonomisti,cijeli razred,dioničarsko gospodarstvo,Danijela Lasić,3
+351,IIId - ekonomisti,cijeli razred,tjelesna  i z k,Ivan Spajic,2
+352,IIIc - ekonomisti,cijeli razred,geografija,Mateo Zadro,2
+353,IIId - ekonomisti,cijeli razred,geografija,Mateo Zadro,2
+354,IIId - ekonomisti,cijeli razred,informatika,Sanja Slišković,2
+355,IIId - ekonomisti,cijeli razred,Tehnologija s ekologijom,Ivana Knezović,2
+356,IIIc - ekonomisti,cijeli razred,gospodarstvo,Ružica Šaravanja,2
+357,IIIc - ekonomisti,cijeli razred,poduzetništvo,Tamara Zovko,2
+358,IIId - ekonomisti,cijeli razred,gospodarstvo,Ružica Šaravanja,2
+359,IIId - ekonomisti,cijeli razred,poduzetništvo,Tamara Zovko,2
+360,IIIc - ekonomisti,1. grupa,izborna nast.računovodstvo neprofitnih organizacija,Danijela Lasić,2
+361,IIId - ekonomisti,2. grupa,izborna nastava organizacijsko ponašanje,Anita Kvesić,2
+362,IIId - ekonomisti,1. grupa,izborna nast.računovodstvo neprofitnih organizacija,Danijela Lasić,2
+363,IIIc - ekonomisti,cijeli razred,informatika,Sanja Slišković,2
+364,IIIe - tehničari cestovnog prometa,cijeli razred,sat razrednika,Antonio Lončar,1
+365,IIId - ekonomisti,cijeli razred,matematika,Marija Ivanković,3
+366,IIIe - tehničari cestovnog prometa,cijeli razred,matematika,Marija Ivanković,3
+367,IIIe - tehničari cestovnog prometa,cijeli razred,hrvatski jezik,Diana Brzica Sesar,3
+368,IIIe - tehničari cestovnog prometa,cijeli razred,strani jezik,Ivana Corluka,3
+369,IIIe - tehničari cestovnog prometa,cijeli razred,tjelesna  i z k,Ivan Spajic,2
+370,IIIe - tehničari cestovnog prometa,cijeli razred,prijevoz tereta,Tamara Zovko,3
+371,IIIe - tehničari cestovnog prometa,cijeli razred,praktična nastava,Antonio Lončar,2
+372,IIIe - tehničari cestovnog prometa,cijeli razred,prometna tehnika,Antonio Lončar,2
+373,IIIe - tehničari cestovnog prometa,cijeli razred,propisi u cestovnom prometu,Antonio Lončar,2
+374,IIIe - tehničari cestovnog prometa,cijeli razred,poslovanje poduzeća u cestovnom prometu,Ružica Šaravanja,2
+375,IIIe - tehničari cestovnog prometa,cijeli razred,statistika,Zdravka Đolo,2
+376,IIIe - tehničari cestovnog prometa,cijeli razred,"politika i građansko društvo, gospodarstvo",Zdravka Đolo,2
+377,IIIg - frizeri,cijeli razred,praktična nastava,Mila Bandić,2
+378,IIIg - frizeri,cijeli razred,praktična nastava,Mila Bandić,1
+379,IIIg - frizeri,cijeli razred,vježbe iz frizerstva,Danica Glavina,3
+380,IIIg - frizeri,cijeli razred,frizerstvo s estetikom i vlasuljarstvom,Danica Glavina,2
+381,IIIg - frizeri,cijeli razred,dermatologija,Kristina Marušić,1
+382,IIIg - frizeri,cijeli razred,tjelesna  i z k,Marko Kvesić,2
+383,IIIg - frizeri,cijeli razred,računalstvo,Ružica Džajkić,2
+384,IIIg - frizeri,cijeli razred,strani jezik,Ivana Ivanković,2
+385,IIIg - frizeri,cijeli razred,primjenjena kemija,Ivana Knezović,2
+386,IIIf - elektroinstalateri,cijeli razred,hrvatski jezik,Diana Zovko,3
+387,IIIf - elektroinstalateri,cijeli razred,matematika,Marija Ivanković,2
+388,IIIf - elektroinstalateri,cijeli razred,strani jezik,Luka Rogalo,2
+389,IIIf - elektroinstalateri,cijeli razred,tjelesna  i z k,Marko Kraljević,2
+390,IIIf - elektroinstalateri,cijeli razred,sat razrednika,Antonio Camber,1
+391,IIIf - elektroinstalateri,cijeli razred,praktična nastava,Marijofil Cerkez,2
+392,IIIf - elektroinstalateri,cijeli razred,praktična nastava,Marijofil Cerkez,1
+393,IIIf - elektroinstalateri,cijeli razred,električne instalacije,Ivona Boban,2
+394,IIIf - elektroinstalateri,cijeli razred,električne mreže,Matea Soldo,1
+395,IIIf - elektroinstalateri,cijeli razred,računalstvo,Ružica Džajkić,1
+396,IIIf - elektroinstalateri,1. grupa,računalstvo,Ružica Džajkić,1
+397,IIIf - elektroinstalateri,cijeli razred,električni strojevi,Ivona Boban,1
+398,IIIf - elektroinstalateri,1. grupa,električni strojevi,Ivona Boban,1
+399,IIIf - elektroinstalateri,cijeli razred,elektroničke komponente,Antonio Camber,1
+400,IIIf - elektroinstalateri,2. grupa,elektroničke komponente,Antonio Camber,1
+401,IIIf - elektroinstalateri,2. grupa,električne mreže,Matea Soldo,1
+402,IjO,cijeli razred,PRAKSA OBILAZK,Zdenko Zovko,1
+403,IIgO,cijeli razred,PRAKSA OBILAZK,Jozo Cigić,2
+404,IIhO,cijeli razred,PRAKSA OBILAZK,Jozo Cigić,2
+405,IVdO,cijeli razred,PRAKSA OBILAZK,Irena Lončar,1
+406,IVa - tehničari za mehatroniku,cijeli razred,sat razrednika,Ana Colak,1
+407,IVb - računalni tehničari za strojarstvo,cijeli razred,sat razrednika,Kristina Tadić,1
+408,IVc - ekonomisti,cijeli razred,sat razrednika,Marko Marušić,1
+409,IVd - komercijalisti,cijeli razred,sat razrednika,Vanja Tica,1
+410,IVa - tehničari za mehatroniku,1. grupa,radioničke vježbe,Antonio Camber,1
+411,IVa - tehničari za mehatroniku,cijeli razred,PLC i mikroupravljači,Antonio Camber,3
+412,IVa - tehničari za mehatroniku,cijeli razred,hrvatski jezik,Kristina Tadić,3
+413,IVa - tehničari za mehatroniku,cijeli razred,matematika,Ana Colak,3
+414,IVa - tehničari za mehatroniku,cijeli razred,rač.upr.num.strojevi,Vinko Zovko,3
+415,IVa - tehničari za mehatroniku,cijeli razred,hidraulika,Andrea Knezović,3
+416,IVa - tehničari za mehatroniku,cijeli razred,vođenje proizvodnih procesa računalom,Antonio Camber,2
+417,IVa - tehničari za mehatroniku,cijeli razred,strani jezik,Ivana Corluka,2
+418,IVa - tehničari za mehatroniku,cijeli razred,"politika i građansko društvo, gospodarstvo",Ružica Šaravanja,2
+419,IVb - računalni tehničari za strojarstvo,2. grupa,praktična nastava,Jelena Slišković,1
+420,IVb - računalni tehničari za strojarstvo,1. grupa,praktična nastava,Vinko Zovko,1
+421,IVb - računalni tehničari za strojarstvo,1. grupa,praktična nastava,Jelena Slišković,2
+422,IVb - računalni tehničari za strojarstvo,2. grupa,praktična nastava,Zvonimir Kožul,2
+423,IVb - računalni tehničari za strojarstvo,cijeli razred,matematika,Ana Colak,4
+424,IVb - računalni tehničari za strojarstvo,cijeli razred,hrvatski jezik,Kristina Tadić,3
+425,IVb - računalni tehničari za strojarstvo,cijeli razred,strani jezik,Ivana Corluka,2
+426,IVb - računalni tehničari za strojarstvo,cijeli razred,"politika i građansko društvo, gospodarstvo",Ružica Šaravanja,2
+427,IVb - računalni tehničari za strojarstvo,cijeli razred,tjelesna  i z k,Stjepan Skoko,2
+428,IVb - računalni tehničari za strojarstvo,cijeli razred,kontrola kvalitete,Martina Cavar,1
+429,IVb - računalni tehničari za strojarstvo,cijeli razred,rač.upr.num.strojevi,Vinko Zovko,1
+430,IVb - računalni tehničari za strojarstvo,cijeli razred,izborna nastava računalom upravljani numerički strojevi,Vinko Zovko,1
+431,IVb - računalni tehničari za strojarstvo,cijeli razred,toplinski strojevi i uređaji,Zdravka Galić,2
+432,IVb - računalni tehničari za strojarstvo,cijeli razred,hidraulika i pneumatika,Zdravka Galić,2
+433,IVb - računalni tehničari za strojarstvo,cijeli razred,strojarske konstrukcije,Zvonimir Kožul,2
+434,IVb - računalni tehničari za strojarstvo,cijeli razred,vođenje proizvodnih procesa računalom,Andrea Knezović,2
+435,IVc - ekonomisti,2. grupa,izbor. nas.vanjs.trg. poslo,Anita Kvesić,2
+436,IVc - ekonomisti,1. grupa,izborna nastava međunarodna razmjena i gospodarstvo svijeta,Ružica Šaravanja,2
+437,IVc - ekonomisti,cijeli razred,gospodarsko pravo,Zdravka Đolo,3
+438,IVc - ekonomisti,cijeli razred,hrvatski jezik,Diana Zovko,3
+439,IVc - ekonomisti,cijeli razred,strani jezik,Marija Šaravanja,3
+440,IVc - ekonomisti,cijeli razred,matematika,Anita Marić,3
+441,IVc - ekonomisti,cijeli razred,poduzetništvo,Danijela Lasić,2
+442,IVc - ekonomisti,cijeli razred,statistika,Zdravka Đolo,2
+443,IVc - ekonomisti,cijeli razred,geografija,Marko Marušić,2
+444,IVd - komercijalisti,cijeli razred,trgovinsko poslovanje,Irena Lončar,3
+445,IVd - komercijalisti,cijeli razred,tehnika vanjskotrgovinskog poslovanja,Anita Kvesić,3
+446,IVd - komercijalisti,cijeli razred,poduzetništvo,Zdravka Đolo,3
+447,IVd - komercijalisti,cijeli razred,strani jezik,Marija Šaravanja,3
+448,IVd - komercijalisti,cijeli razred,matematika,Anita Marić,3
+449,IVd - komercijalisti,cijeli razred,hrvatski jezik,Diana Zovko,3
+450,IVd - komercijalisti,cijeli razred,promidžbene aktivnosti,Tamara Zovko,2
+451,IVd - komercijalisti,cijeli razred,osnove trgovačkog prava,Tamara Zovko,2
+452,IVd - komercijalisti,cijeli razred,tjelesna  i z k,Marko Kraljević,2
+453,IIIa - tehničari za mehatroniku,cijeli razred,pneumatika,Andrea Knezović,2
+454,IIh - CNC operateri,cijeli razred,CNC strojevi,Jelena Slišković,2
+455,IIa - elektrotehničari,cijeli razred,sat razrednika,Ivona Boban,1
+456,IIIb - računalni tehničari za strojarstvo,cijeli razred,praktična nastava,Jelena Slišković,1
+457,IIIb - računalni tehničari za strojarstvo,cijeli razred,praktična nastava,Zvonimir Kožul,1
+458,IIIe - tehničari cestovnog prometa,cijeli razred,cestovna vozila,Andrea Knezović,2
+459,IIIg - frizeri,cijeli razred,hrvatski jezik,Marija Šaravanja,1
+460,IIIg - frizeri,cijeli razred,hrvatski jezik,Marija Šaravanja,1
+461,IIg - CNC operateri,cijeli razred,CNC strojevi,Zvonimir Kožul,1

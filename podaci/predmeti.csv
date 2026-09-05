@@ -1,0 +1,196 @@
+id,naziv,kratica
+0,sat razrednika,SRZ
+1,hrvatski jezik,hj
+2,strani jezik,ej
+3,strani jezik izborni,eji
+4,strani jezik,nj
+5,strani jezik izborni,nji
+6,povijest,pov
+7,geografija,geo
+8,matematika,mat
+9,izborna nast.-mat,i. n. mat.
+10,informatika,inf
+11,računalstvo,rač.
+12,fizika,fiz
+13,Kemija,kem
+14,biologija,bio
+15,Poznavanje robe,Poz.rob.
+16,Tehnologija s ekologijom,Teh s ek.
+17,Higijena,Hig.
+18,tjelesna  i z k,tzk
+19,"politika i građansko društvo, gospodarstvo","pol i gd,g"
+20,Vjeronauk,vje
+21,Psihologija prodaje,Psi-pro
+22,izbor. nast knjigovdstvo na računalu,in knj. na rač.
+23,izb. nast. marketing u turizmu,in mark. u turiz.
+24,izbor. nast. birotehnika,in birot.
+25,trgovinsko poslovanje,tr.po.
+26,promidžbene aktivnosti,prom. aktiv.
+27,praktična nastava,pr.nas
+28,tehničko crtanje,teh.crt.
+29,tehnička mehanika,teh.-meh.
+30,tehnički materijali,teh.-mat.
+31,tehnologija obrade i sastavljanja,teh.obrade i sast.
+32,elementi strojeva,elem. str.
+33,strojarske konstrukcije,str. konst.
+34,termodinamika,termodin.
+35,hidraulika i pneumatika,hidr. i pneum.
+36,rač.upr.num.strojevi,rač. upr. num.str.
+37,alati i naprave,alat.i nap.
+38,strojarstvo,strojar.
+39,upravljanje i regulacija,upr.i reg.
+40,tehnologija obrade i montaže,teh.obr.i mon.
+41,motori s unutarnjim izgaranjem,mot.s unut.izg.
+42,tehnologija automehanike,tehn.aut.meh.
+43,Tehnologija održavanj. alat. stroj.,Toas
+44,tehnologija obrade materijala,tehn. obr. materij.
+45,osnove elektrotehnike,osn.-elektr.teh.
+46,elektrotehnika,elektroteh.
+47,mjerenja u elektrotehnici,mje.u elek.teh.
+48,elektrotehnički materijali i komponente,el.teh.mat.i komp.
+49,radioničke vježbe,rad.vjež.
+50,elektronički sklopovi,elek.sklop.
+51,električni strojevi,elek.stroj.
+52,sklopni aparati,sklop.apar.
+53,električne instalacije,elek.inst.
+54,škol.izb.program-elektr.sklop.,škol. iz. pr.el. skl.
+55,elektroničke komponente,elek.-komp.
+56,električne mreže,elek.mrež.
+57,energetika,energet.
+58,gospodarstvo,gosp.
+59,poduzetništvo,pod.
+60,knjigovodstvo s bilanciranjem,knj.s bil.
+61,poslovne komunikacije,pos.kom.
+62,dioničarsko gospodarstvo,dion.gosp.
+63,marketing,mark.
+64,novčarstvo,novčar.
+65,statistika,stat.
+66,gospodarsko pravo,gosp.prav.
+67,"prijevoz,špedicija i osiguranje",prij. špe.i osig.
+68,tehnika vanjskotrgovinskog poslovanja,teh.vanj.trg.pos.
+69,osnove trgovačkog prava,osn.trg.prav.
+70,tehnologija goriva i maziva,teh.gor.i maz.
+71,zaštita na radu,zaš.na rad.
+72,Osnove prijevoza i prijenosa,Osn. prije. i prijenosa
+73,ekonomika prometa,eko. prom.
+74,prometna tehnika,prom teh.
+75,Terminali i mehanizacija,term. i meh.
+76,poslovanje poduzeća u cestovnom prometu,pos.pod. u cest.prom.
+77,špedicija,šped.
+78,dermatologija,derm.
+79,frizerstvo s estetikom i vlasuljarstvom,friz.s est. i vlas.
+80,vježbe iz frizerstva,vje.iz friz.
+81,biologija s higijenom i ekologijom,biol. s hig.i ek.
+82,poznavanje robe i prehrane,poz.rob.i preh.
+83,gospodarsko poslovanje,gosp.posl.
+84,ugostiteljsko posluživanje,ug.posl.
+85,PRAKSA OBILAZK,Obilazak
+86,primjenjena kemija,pr.kem
+87,kontrola kvalitete,kntrl.kv.
+88,toplinski strojevi i uređaji,tsiu
+89,hir. i pn. str. i uređaji,hipsiu
+90,vođenje proizvodnih procesa računalom,vppr
+91, izborna nastava NUS,in NUS
+92,propisi u cestovnom prometu,pucp
+93,prva pomoć u cestovnom prometu,ppucp
+94,prijevoz tereta,pr.ter
+95,turizam i marketing,tur i mark
+96,poslovna psihologija,pos.psi
+97,kuharstvo,kuh.
+98,francuski jezik sa stručnim nazivljem,fr.jez
+99,elektroenergetika,el.ener
+100,energetska elektronika,en.elekt
+101,elektromotorni pogoni,ep
+102,automatsko vođenje procesa,avp
+103,pr.pom. ucp,pr. pom. ucp.
+104,informacije i komunikacije,inf.i kom
+105,digitalna elektronika,dig.el
+106,Finomehanička tehnika,Fmt
+107,Elektronička instrumentacija,Ei
+108,Mikroračunala,Mikrorac
+109,VF sklopovi i sustavi,VFsis
+110,Izborni predmet-električne instalacije,Izbor. pred.-el. ins.
+111,dopun. nas. matem.,dnm
+112,dodat. nast . matem.,dn.m
+113,izborni tehničko crtanje,izb. tehn. crt.
+114,stručna praksa,str. prak.
+115,kulturno povijesna baština,kul. pov. baš.
+116,prometno pravo,prom. prav.
+117,opća kemija,ok
+118,uvod u labaratorijski rad,uvo. u lab. rad
+119,izborni- tehnička mehanika,izb. teh .meh.
+120,CNC strojevi,CNCstr.
+121,CAD-CAM tehnolgije,C-C teh.
+122,anatomija  i fiziologija,aat. i fizio.
+123,osnove zdravstvene struke,osn. zdr. str.
+124,latinski jezik,lat. jez.
+125,izborni elektroenergetika,izb-elektroener.
+126,financijsko poslovanje,fin. posl.
+127,izborna nastava organizacijsko ponašanje,izb. nast. organ. ponaš.
+128,izborna nastava- suvremene komunikacije,izb. nast. suvre. komun.
+129,izborna nastava gospodarska matematika,izb. nas. gos. matem.
+130,skladišno poslovanje,skl. posl.
+131,posluživanje CNC strojeva,posl. CNC st.
+132,tehnologija posl. CNC str.,teh. posl. CNC st.
+133,izbor. nas.vanjs.trg. poslo,invanj. tr. pos.
+134,međunarodno poslovanje,me. posl.
+135,automatizacija,aut.
+136,medicinska mikrobiologija,mm
+137,organska kemija,ok
+138,analitička kemija,ak
+139,organizacija prijevoza tereta,opt
+140,logistika,logis.
+141,osnove turizma,osn. turiz.
+142,farmaceutska kemija s farmakologijom,fksf
+144,botanika s farmakognozijom,bsf
+145,farmaceutska tehnologija s kozmetologijom,ftsk
+146,prirodna ljekovita sredstva,pls
+147,tehničko crtanje i nacrtna geometrija,tcing
+148,izborna nas. globalno poslov okruženje,ingpo
+149,izborna nasta.osnove turizma,int
+150,izborna nastav.obiteljski posao,inp
+151,izborna nast.računovodstvo neprofitnih organizacija,inno
+152,izbornanast. računovodstvo na računalu,irnr
+153,agencijski poslovi,ap
+154,osiguranjeu prijevozu,op
+155,električni strojevi i uređaji,esiu
+156,kulturna povijesna baština,kpb
+157,izborna nastava,in
+158,industrijska proizvodnja lijekova,ipl
+159,kemija prehrane,kp
+160,cestovne građevine,cg
+161,cestovna vozila,cv
+162,izborna nastava obiteljski posao,inop
+163,izborna nastava računovodstvo neprofitnih organizacija,inrno
+164,organizacijsko poslovanje ugostiteljskih poduzeća,opup
+165,električni strojevi i uređaji,esiu
+166,poslovna psihologija i komunikacija,ppik
+167,prijevoz putnika,prije.put
+168,PLC i mikroupravljači,PLC
+169,mikroupravljači,mikro 
+170,pneumatika,pne
+171,senzorika,senz.
+172,mehanika fluida,meh.flu
+173,mikro i nano mehatronika,mik.nan.
+174,složene mehatroničke konstrukcije,sl.meh.konstr.
+175,robotika,robo.
+176,kontrola mjerenja,kon.mje.
+177,numerički upravljani alatni strojevi,num.stro.
+178,regulacija i upravljanje,reg.up.
+179,mehatroničke konstrukcije,meha.konstr.
+180,hidraulika,hidra.
+181,izborna nastava međunarodna razmjena i gospodarstvo svijeta,inmrigs
+182,izborna nastava tehnologija posluživanja CNC strojeva,intpCs
+183,osnove automatizacije,os.aut
+184,izborna nastava računalom upravljani numerički strojevi,inruns
+185,tehničko crtanje i elementi strojeva,teh.cr.i el.str
+186,osnove računalstva,os.rac
+187,Izborna nastava CAD-CAM tehnologije,InCAD-CAM
+188,Poznavanje materijala,Pm
+189,Nauka o čovjeku,Noč
+190,Psihologija komunikacije,Psih
+191,tehnologija frizerstva,teh.friz
+192,tehnološke vježbe,teh.vj.
+193,tzk - izborni predmet,tzk-i
+194,zdravstveni odgoj,zo
+195,tehnička mehanika izborni,teh.meh.i
