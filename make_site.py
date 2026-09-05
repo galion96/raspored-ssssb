@@ -63,10 +63,13 @@ def build(fet, outdir, dest):
                      f'<span>{e(sub[:44])}</span></a>')
         tiles.append('\n'.join(t + ['</div>']))
         for n in names:
+            note = {'ucionica': 'Prazan termin znači da je učionica slobodna — '
+                                 'rupe su ovdje normalne, za razliku od rasporeda razreda i nastavnika.',
+                    'nastavnik': '', 'razred': ''}[kind] or (meta.get(n, '') or '')
             sheets.append(
                 f'<section class="sheet" data-key="{kind}/{e(n)}" hidden>'
                 f'<div class="shead"><a class="back" href="#{kind}">← {e(label)}</a>'
-                f'<h2>{e(n)}</h2><p>{e(meta.get(n,"") or "")}</p></div>'
+                f'<h2>{e(n)}</h2><p>{e(note)}</p></div>'
                 f'{grid(days, hours, cells[(kind, n)])}</section>')
     # naslovne brojke broje samo ono što se stvarno predaje: bez 'O' oznaka za
     # obilazak prakse i bez PRAK.NAST.VAN.SK nositelja koji nisu osobe
