@@ -19,6 +19,7 @@ def collect(fet_path, outdir):
     years = {y.findtext('Name'): (y.findtext('Comments') or '') for y in src.findall('./Students_List/Year')}
     yof = lambda g: g if g in years else g.rsplit('-', 1)[0]
     tt = glob.glob(os.path.join(outdir, 'timetables/*/*_activities.xml'))[0]
+    hpos = {h: i for i, h in enumerate(hours)}
     cells = collections.defaultdict(lambda: collections.defaultdict(list))
     load  = collections.Counter()
     for a in ET.parse(tt).getroot().findall('Activity'):
@@ -27,11 +28,16 @@ def collect(fet_path, outdir):
         r = (a.findtext('Room') or '').strip(); x = acts[i]
         grp = '' if x['g'] in years else x['g'].rsplit('-', 1)[1]
         blk = f' · blok {x["d"]}h' if x['d'] > 1 else ''
-        cells[('razred', yof(x['g']))][(d, h)].append(
-            (x['s'], x['t'], r, (f'gr.{grp}' if grp else '') + blk))
-        cells[('nastavnik', x['t'])][(d, h)].append(
-            (x['s'], yof(x['g']) + (f' gr.{grp}' if grp else ''), r, blk.lstrip(' ·')))
-        if r: cells[('ucionica', r)][(d, h)].append((x['s'], x['t'], yof(x['g']), ''))
+        ent = {'razred':    (x['s'], x['t'], r, (f'gr.{grp}' if grp else '') + blk),
+               'nastavnik': (x['s'], yof(x['g']) + (f' gr.{grp}' if grp else ''), r, blk.lstrip(' ·')),
+               'ucionica':  (x['s'], x['t'], yof(x['g']), blk.lstrip(' ·'))}
+        for k in range(x['d']):                 # blok zauzima sve svoje sate, ne samo prvi
+            j = hpos[h] + k
+            if j >= len(hours): break
+            hh = hours[j]
+            cells[('razred', yof(x['g']))][(d, hh)].append((i, ent['razred']))
+            cells[('nastavnik', x['t'])][(d, hh)].append((i, ent['nastavnik']))
+            if r: cells[('ucionica', r)][(d, hh)].append((i, ent['ucionica']))
         if grp != '2': load[('razred', yof(x['g']))] += x['d']   # paralelne grupe = isti termin
         load[('nastavnik', x['t'])] += x['d']
         if r: load[('ucionica', r)] += x['d']
@@ -47,13 +53,23 @@ def grid(days, hours, cell):
          ''.join(f'<th>{e(h)}</th>' for h in hours) + '</tr></thead><tbody>']
     for d in days:
         o.append(f'<tr><th class="dy">{e(d)}</th>')
-        for h in hours:
-            c = cell.get((d, h), [])
-            if not c: o.append('<td class="free"></td>'); continue
-            o.append('<td>' + ''.join(
-                f'<div class="ev"><b>{e(a)}</b><span>{e(b)}'
-                f'{" · " + e(r) if r else ""}{" · " + e(g) if g else ""}</span></div>'
-                for a, b, r, g in c) + '</td>')
+        j = 0
+        while j < len(hours):
+            c = cell.get((d, hours[j]), [])
+            ids = tuple(sorted(i for i, _ in c))
+            n = 1                                  # koliko uzastopnih sati drze iste aktivnosti
+            while j + n < len(hours) and tuple(sorted(
+                    i for i, _ in cell.get((d, hours[j + n]), []))) == ids and ids:
+                n += 1
+            span = f' colspan="{n}"' if n > 1 else ''
+            if not c:
+                o.append(f'<td class="free"{span}></td>')
+            else:
+                o.append(f'<td{span}>' + ''.join(
+                    f'<div class="ev"><b>{e(a)}</b><span>{e(b)}'
+                    f'{" · " + e(r) if r else ""}{" · " + e(g) if g else ""}</span></div>'
+                    for _, (a, b, r, g) in c) + '</td>')
+            j += n
         o.append('</tr>')
     return '\n'.join(o + ['</tbody></table></div>'])
 
