@@ -35,6 +35,11 @@ def main(path):
                 a, b = occ.index(True), len(occ) - 1 - occ[::-1].index(True)
                 if not all(occ[a:b + 1]): holes.append((key, d))
     print(f"== prikaz ({n} redaka, {nh} sati po danu) ==")
+    css = h[h.index('<style>'):h.index('</style>')]
+    check("[hidden] gasi i elemente s vlastitim display-om (inace tabovi ne rade)",
+          re.search(r'\[hidden\]\s*\{[^}]*display\s*:\s*none\s*!important', css) is not None)
+    shown = re.findall(r'<div class="tiles" data-kind="(\w+)"(?! hidden)', h)
+    check("nijedna mreža pločica nije vidljiva u izvoru (JS je pali)", not shown, shown)
     check("svaki redak ima točno onoliko stupaca koliko ima sati", not wide, wide[:4])
     check("nijedan razred nema praznu ćeliju usred dana", not holes, holes[:6])
     check("nijedna spojena ćelija nije prazna", not bad_span, bad_span[:4])

@@ -12,6 +12,9 @@
  --acc:#d99a5e; --acc-soft:#2b2318; --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.35);
 }}
 *{box-sizing:border-box}
+/* .tiles ima display:grid, sto nadjacava zadano [hidden]{display:none} - bez ovoga
+   se sve tri mreze plocica prikazuju odjednom i tabovi ne rade */
+[hidden]{display:none!important}
 body{margin:0;background:var(--bg);color:var(--fg);
  font:15px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
  -webkit-text-size-adjust:100%}
