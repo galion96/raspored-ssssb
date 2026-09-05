@@ -15805,6 +15805,246 @@
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>Ia</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>Ib</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>Ic</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>Id</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>6</Minimum_Hours_Daily>
+	<Students>Ie</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>6</Minimum_Hours_Daily>
+	<Students>If</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>Ig</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>Ih</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>Ii</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>Ij</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>IIa</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>6</Minimum_Hours_Daily>
+	<Students>IIb</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>IIc</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>IId</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>IIe</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>IIf</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>IIg</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>IIh</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>IIi</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>6</Minimum_Hours_Daily>
+	<Students>IIIa</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>6</Minimum_Hours_Daily>
+	<Students>IIIb</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>6</Minimum_Hours_Daily>
+	<Students>IIIc</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>6</Minimum_Hours_Daily>
+	<Students>IIId</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>IIIe</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>IIIf</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>IIIg</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>6</Minimum_Hours_Daily>
+	<Students>IVa</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>IVb</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>6</Minimum_Hours_Daily>
+	<Students>IVc</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
+<ConstraintStudentsSetMinHoursDaily>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Minimum_Hours_Daily>5</Minimum_Hours_Daily>
+	<Students>IVd</Students>
+	<Allow_Empty_Days>true</Allow_Empty_Days>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintStudentsSetMinHoursDaily>
 <ConstraintTeacherMaxGapsPerDay>
 	<Weight_Percentage>100.0</Weight_Percentage>
 	<Teacher>Diana Zovko</Teacher>

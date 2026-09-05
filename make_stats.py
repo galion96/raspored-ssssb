@@ -24,11 +24,16 @@ def gather(roz, fet, outdir):
         d, h, r = a.findtext('Day'), a.findtext('Hour'), (a.findtext('Room') or '').strip()
         if d and h and r: room_slot[(d, h.split(' ')[0])] += 1
         if d and h: tch_slot[(d, h.split(' ')[0])].add(acts[int(a.findtext('Id'))][0])
+    daylen = collections.defaultdict(set)
+    for a in ET.parse(tt).getroot().findall('Activity'):
+        d, h = a.findtext('Day'), a.findtext('Hour')
+        if d and h: daylen[(yof(acts[int(a.findtext('Id'))][1]), d)].add(h)
+    dl = collections.Counter(len(v) for k, v in daylen.items() if not k[0].endswith('O'))
     isO = lambda ci: cnames[ci][0].endswith('O')
     cls = collections.Counter(); tch = collections.Counter()
     for r in les:
         cls[cnames[r['cls']][0]] += r['h']; tch[T['teachers'][r['tch']]['names'][0]] += r['h']
-    return dict(days=days, hours=hours, room_slot=room_slot, tch_slot=tch_slot,
+    return dict(dl=dl, days=days, hours=hours, room_slot=room_slot, tch_slot=tch_slot,
                 cls=cls, tch=tch, cnames=cnames, les=les, T=T,
                 n_def=dict(razredi=len(cnames), predmeti=len(T['subjects']),
                            nastavnici=len(T['teachers']), ucionice=len(T['rooms'])),
@@ -82,12 +87,15 @@ def build(roz, fet, outdir, dest, soft=1):
                     f'<td class="wh">{e(d)}</td></tr>' for a, b, c, d in rows)
     tiles = [(f"{tot}", "sati smješteno", f"od {tot} traženih"),
              ("0", "rupa i pauza", "kod razreda i kod nastavnika"),
+             (str(g['dl'].get(5, 0)), "dana od pet sati", f"nijedan kraći; {g['dl'].get(6,0)}×6h, {g['dl'].get(7,0)}×7h"),
              (str(soft), "prekršeno meko ograničenje", "dvosat isti dan, spojen"),
              ("&lt;1 s", "trajanje izračuna", "FET 7.10.3")]
     cap_r = g['n_def']['ucionice']
     doc = (TPL.replace('%%TILES%%', ''.join(
                 f'<div class="tile"><b>{a}</b><span>{e(b)}</span><em>{e(c)}</em></div>' for a, b, c in tiles))
               .replace('%%TABLE%%', tbl)
+              .replace('%%DL%%', bars([(f'{h} sati', n) for h, n in sorted(g['dl'].items())],
+                                      max(g['dl'].values()), lambda k: ' dana u tjednu'))
               .replace('%%CLS%%', bars(real_cls, max(v for _, v in real_cls)))
               .replace('%%NCLS%%', str(len(real_cls)))
               .replace('%%TCH%%', bars(real_tch, max(v for _, v in real_tch),
@@ -169,6 +177,14 @@ Za nekoga tko i sam slaže rasporede.</p>
 desni je ono što stvarno ulazi u raspored.</p>
 <div class="wrap"><table><thead><tr><th></th><th class="n">u datoteci</th>
 <th class="n">u nastavi</th><th>razlika</th></tr></thead><tbody>%%TABLE%%</tbody></table></div>
+
+<h2>Duljine nastavnih dana</h2>
+<p>Kratki dani su smetnja, pa se drže na minimumu. Tvrdi minimum je pet sati, a razredi
+s 33 sata tjedno drže minimum šest. Iznad toga praga rješenja nema — provjereno bisekcijom,
+već pri pragu 32 sata FET stane na 803 od 890 sati. Ostatak se dobiva izborom među
+ishodima: četrnaest prolaza s različitim sjemenom, uzet je onaj s najmanje kratkih dana
+(raspon je bio od 26 do 39).</p>
+%%DL%%
 
 <h2>Tjedno opterećenje po razredu</h2>
 <p>%%NCLS%% razreda. Mreža ima 35 termina (5 dana × 7 sati), pa najopterećeniji razred
